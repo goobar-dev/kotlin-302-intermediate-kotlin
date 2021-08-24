@@ -1,0 +1,9 @@
+type: output
+custom_name: Code Tasks
+files:
+- name: src/Task.kt
+  visible: true
+- name: test/
+  visible: false
+- name: test/output.txt
+  visible: false

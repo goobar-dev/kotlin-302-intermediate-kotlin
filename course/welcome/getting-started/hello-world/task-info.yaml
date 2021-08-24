@@ -1,0 +1,5 @@
+custom_name: Hello World
+type: theory
+files:
+- name: src/Main.kt
+  visible: true
