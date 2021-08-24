@@ -5,11 +5,12 @@ This training is designed to be done over 2 days with a mixture of lectures and 
 
 ## 📝 Course Objectives
 By the end of this course you will be able to:
-- Better understand the Kotlin ecosystem
-- Write contracts to make the Kotlin compiler even smarter
-- Write structured, asynchronous, code with Coroutines & Flow
-- Understand the benefits, and limitations, of Kotlin Multiplatform
-- Start building Kotlin applications for mobile, web, and backend
+- Write complex programs using Kotlin
+- Utilize Kotlin’s top-level, and higher-order, functions
+- Call Java from Kotlin and call Kotlin from Java
+- Perform tests, and mock code, in Kotlin
+- Leverage Kotlin to simplify Android development
+
 
 ## 💡 How to use this repo?
 This repo contains supporting materials for this training.
@@ -24,11 +25,11 @@ Some Labs may include starter code to open, build, and run on your local machine
 Other Labs, will require you to setup projects on your own, and then reuse those projects across labs.
 
 ## 🛠 Technical Requirements
-- EduTools Plugin for JetBrains IDEs
-  - [Install via IntelliJ Plugins Settings](https://plugins.jetbrains.com/plugin/10081-edutools)
 - Android Studio 2020.3.1+
   - [Install via Download Site](https://developer.android.com/studio)
   - [Install via Jetbrains Toolbox](https://www.jetbrains.com/toolbox-app/)
+- EduTools Plugin for JetBrains IDEs
+  - [Install via IntelliJ Plugins Settings](https://plugins.jetbrains.com/plugin/10081-edutools)
 - JDK 11+
   - [Install via Download Site](https://adoptopenjdk.net/index.html)
   - [Install via Brew](https://github.com/AdoptOpenJDK/homebrew-openjdk)
@@ -43,15 +44,15 @@ These labs include interactive exercises, content reviews, and playgrounds with 
 To open, and start the course you'll need to do the following
 
 ### Installing the EduTools Plugin
-1. Install IntelliJ
-2. Open IntelliJ Preferences/Settings
+1. Install Android Studio
+2. Open Android Studio Preferences/Settings
 3. Navigate to Plugins -> Marketplace
 4. Search for `EduTools` plugin
 5. Install the plugin, and restart your IDE
 
 ### Starting the Course
 1. Download the course zip from this repo
-2. Open IntelliJ
+2. Open Android Studio
 3. On the start screen, navigate to My Courses -> Start New Course
 4. Select My Courses -> Open Course From Disk
 5. Navigate to, and select, the course zip downloaded from this repo
