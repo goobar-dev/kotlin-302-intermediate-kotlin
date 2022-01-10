@@ -31,7 +31,7 @@ We will leave times to complete labs at the end of each section.
   - [Install via Brew](https://github.com/AdoptOpenJDK/homebrew-openjdk)
   - [Setup JAVA_HOME env variable](https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html)
 
-## 🛠 Setup Course Exercises
+## 🛠 Setup Labs
 The labs for this course require using the EduTools Plugin for JetBrains IDEs.
 
 These labs are packaged into a `labs.zip` course that can be opened/completed using IntelliJ.
