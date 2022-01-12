@@ -9,3 +9,5 @@ summary: |-
 programming_language: Kotlin
 content:
 - welcome
+- Basics Overview
+- Top Level Properties & Functions

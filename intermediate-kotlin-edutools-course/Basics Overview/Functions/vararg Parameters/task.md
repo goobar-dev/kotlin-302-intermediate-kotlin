@@ -1,0 +1,1 @@
+Complete the function definition so the call-site code is valid and correctly prints the expected output.
