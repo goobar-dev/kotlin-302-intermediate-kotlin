@@ -1,0 +1,1 @@
+Refactor the `greet()` function as a single expression function

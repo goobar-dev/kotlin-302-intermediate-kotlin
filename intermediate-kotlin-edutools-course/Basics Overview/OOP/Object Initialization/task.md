@@ -1,0 +1,1 @@
+What is the initialization order for `Declared`, `anon` and `TopLevel`'s companion object

@@ -1,0 +1,519 @@
+{
+  "course_version" : 1,
+  "summary" : "This is an intermediate Kotlin course.\n- The course will be most beneficial for beginner-intermediate Kotlin learners.\n- The course covers intermediate Kotlin features.\n- It contains hands-on examples of Kotlin code implementation and exercises to practice new skills.\n- The course is based on the author's personal experience in Kotlin development.",
+  "title" : "Intermediate Kotlin Workshop",
+  "programming_language" : "kotlin",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "vendor" : {
+    "name" : "n8ebel"
+  },
+  "items" : [
+    {
+      "title" : "welcome",
+      "items" : [
+        {
+          "title" : "getting-started",
+          "task_list" : [
+            {
+              "name" : "hello-world",
+              "custom_name" : "Hello World",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "NDA7NYDJ4pT3F7ChgC7OnaefLLP4LZOA5iusv5206KdO+G3VFWYdZGJ4Ce/KbfhceRj2JYMZpOqtBB3nJgjIZZ2izq4P9rzsADSbBnA8H04="
+                }
+              },
+              "description_text" : "<html>\n\n<h2>Welcome to this Intermediate Kotlin Workshop</h2>\n\n<p>In this first section, you'll learn how to use the EduTools plugin to work through examples and exercises in support\n    of your workshop.</p>\n\n<h3>Tracking Progress</h3>\n\n<p>The EduTools plugin will track your progress as you work through the examples.\n    Each example should have a \"call to action\" button that says something like <b>Run</b> or <b>Check</b>.\n</p>\n\n<p>Clicking this button will validate your code, and will update your progress once you've completed the task.</p>\n\n<p>Some tasks, like this one, may have no code to write. In these cases, simply click <b>Run</b> when you're ready to\n    proceed to the next task.</p>\n</html>",
+              "description_format" : "HTML",
+              "task_type" : "theory"
+            },
+            {
+              "name" : "code-tasks",
+              "custom_name" : "Code Tasks",
+              "files" : {
+                "src/Task.kt" : {
+                  "name" : "src/Task.kt",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "APwPHmksQgbex2LHpEKuItBuaAzZ9i0a75sxUjv7Jd97OQ8hHTyfb9Lqsz/0DGge"
+                },
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "ZBLXxCUrVIxpjgD6SKx4AQ=="
+                }
+              },
+              "description_text" : "<html>\n\n<h2>Code Tasks</h2>\n\n<p>Each task/example will include a <em>main.kt</em> file.</p>\n\n<p>These files may include <em>TODO()</em> placeholders that hint at updates you should make to the code to make the\n    validations pass.</p>\n\n<p>In other cases, you may need to simply run the code to observe the output.</p>\n\n<p>In either case, you'll need to click the <b>Check</b> button to save your progress and proceed to the next example.</p>\n\n</html>",
+              "description_format" : "HTML",
+              "task_type" : "output"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
+    },
+    {
+      "title" : "Basics Overview",
+      "items" : [
+        {
+          "title" : "Variables",
+          "task_list" : [
+            {
+              "name" : "Mutable Variables",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "SC29kafQ2ubrToDjkSDVZw=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 73,
+                      "length" : 39,
+                      "possible_answer" : "yWnRJTceUkqpDduBizp4wQ==",
+                      "placeholder_text" : "TODO(\"Update the variable value to 10\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U0f+GnDtDALLUYJFX6765BUN1pTgSS+7vqV58lzPWtDJS5o02RYhLbGvOM9QL58CHrf4tH8NXTapTkebVGsJl4YxKCA6OAef2ZMf4++tfv10t7usJz51wyCuD6Nx+htigY4HL0eF1CQB6b80IcjslPt"
+                }
+              },
+              "description_text" : "Update the value of the mutable variable so the number `10` is printed to the console.",
+              "description_format" : "MD",
+              "task_type" : "output"
+            },
+            {
+              "name" : "Read-Only Variables",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "kGtgwEdvEJurbiFA7y7OSQ=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 49,
+                      "length" : 37,
+                      "possible_answer" : "/tk+5s46ew9wkv0DesU2/w==",
+                      "placeholder_text" : "TODO(\"Declare as read-only variable\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U36zhLx2uPFIfxfqiaBGI1dVtwZ/BNCz0gS9ZmKUc9fOQb0hxwixqsoauDIComXU7JwJDn5687LIe1XbZ7wSmEs0eAAVeS8tHKLE4wGqf987Eb2MJ67Xtb/E+V/Uti0e9mHVV6qftQtyRj6psDAKwGxM+kARQDqxhbq57v9n94R3w=="
+                }
+              },
+              "description_text" : "Finish the variable declaration of `readOnlyVariable`.\n\nThe variable should not allow value reassignment.",
+              "description_format" : "MD",
+              "task_type" : "output"
+            },
+            {
+              "name" : "lateinit Variables",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 49,
+                      "length" : 33,
+                      "possible_answer" : "u+BzYGBszCbO8wIlUEexwA==",
+                      "placeholder_text" : "TODO(\"Add the lateinit modifier\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U36zhLx2uPFIfxfqiaBGI1da9QnmY2ICH3dJAZySKVjw2pZZzAGk8ujZVT7PtrAErFwLcSndJrUJSv+ES0L5M/oIkYsO9rdrkmSDg7rXEqJ9fTSW4TwUrXu91GMy+vTYAk="
+                }
+              },
+              "description_text" : "Add the `lateinit` modifier to the variable so the code snippet compiles.\n\nOnce compiled, the code should throw a runtime exception.\n\nWhy is the runtime exception thrown?\nHow would you fix that?",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Functions",
+          "task_list" : [
+            {
+              "name" : "Single Expression Function",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "v5CcslCGpZyhbsNimWGMz+At39iYSh9ZOdoXc1xyEGr7B8ixWNOppprnnXs3jkQJlYaPZHyP007Fhyut74Cwh2G929PYBH8OSQhaUAUES3I="
+                }
+              },
+              "description_text" : "Refactor the `greet()` function as a single expression function",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            },
+            {
+              "name" : "vararg Parameters",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "HLWS/LNBUC6yW5a68GZNQldOxgbQr2MvEEXRK0TFlyGhPa38Bjeva16mJP9k89Y5/MH1H4LW3tTI5vLDgwxl1CQL2ODMW4gZwNlwLOvU+bw="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 21,
+                      "length" : 40,
+                      "possible_answer" : "IMNDblsyMM4883zhSeWNwFOG8qlwhuTl297NoE7JUOB3cCvlQ82aC9se6Y0AipdYdcyFfT0ft8AXeeTkkQxTmA==",
+                      "placeholder_text" : "TODO(\"Finish implementing the function\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "diS1HUGRrWN/MfA7l014n59l/w0xC7rbQPLVBgdHbSAIhkvaOqAtuO/+xBmCJz4SMHWAoHPMZ8e6QA5r+Rd9QHp9iFI6rjgmykNZRNepZmZp06ynoK8dOA5Vj0tbF3HeOICSuf7+UTbnZHUFsHfU/QLqC4emSJ2NQQ9sas1Xa+53pMh9TCFexwM+PFuqLxjauJ9P0MLpvA0g/2LPbDFr2LJUbIAfd0vXqrLf90lW4PsmsliAXAtMYJW58nhnDJcQnKUxz4jwRpt2uxk8TI1W2ClIOo6NmeEj1hblpR+F/F9/qjUERaczkeymiTTFELqAdfRCEeAk3BJU89wJCP7QBRReOTLf8cGzjtnMrKFwkr0/dGWhtZShaZrUFhopT6f9zqw8DSt32Pbu9vdjXWjKBNu5LmhYzywD7rNw4eMD/kYrGRRtYzJUa61sWtm4oayIzSm+4+09+1mywMjt2nzesLWSX/faxGWFjsaVtTFzXZ0UYsBfe3LluGuF7X0l0V0OSHvj+zykYsMCc+k/9wCMS5WbHIuFsRvel+d1tdlmLtA="
+                }
+              },
+              "description_text" : "Complete the function definition so the call-site code is valid and correctly prints the expected output.",
+              "description_format" : "MD",
+              "task_type" : "output"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "OOP",
+          "task_list" : [
+            {
+              "name" : "Object Initialization",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "G+XftoZR8opsSYsXba0jkrqUCiQbcaxm37Z6az1Wty8rLbwW0AehTYP8tQ+GLZcqdDektVQedMA+pB64cDK/1johEbCe7VawUHGkk0c9IIs4nkyuJfgAZXkQ5O7dmQN6UEcQjmUqupHUtx+pGZhDnbRlFIexA0iRYlxhtOEIyacJACNvk9tMCt/g7NoHWlem2qKNbShv8ann1ksfh3WIZRuSeA5ZziVcq8ScVKr5hOnw4Y/JvrPFh4jHxtZZ5xrTj7MY8rpTZCq94S+7LGI9dtz4mPg0Va86mVmhgVr7E3ZqbezrcISsc5JS35mZvMJk/1/R0DV1Em08aGHmCGpykkB6QPnejM3HbKWVwZkPfSTkMsTuQ6dIEhOK+eXUc6Y0bqy5eKGmbTk6aPq8ugo5bn6Fh49J0KywNclSZ0Wtw1QantCula7jS+up5AjZud/r"
+                }
+              },
+              "description_text" : "What is the initialization order for `Declared`, `anon` and `TopLevel`'s companion object",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            },
+            {
+              "name" : "Data Classes",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 78,
+                      "length" : 33,
+                      "possible_answer" : "vsm5KVbc8eDdNsU/owNZSvlDwNZiV/fGypczknKTs5fQ2XSLk4vOUPhrvZoYsYuFLEMrHeubTU+fIgXawrwwcssHXcbgfMo0z91PqB2aL21MWJWzVY8FUzPLtP5thULNNdwbiuzXq7YNCM1fWzFJgQ==",
+                      "placeholder_text" : "TODO(\"Create the Car data class\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "YtRti9Nre+16DtuLhrUu6yDymiX8HnVwdKEE3T37U5pZP43V1W6JruXu5y5ooeANVOS64v8pipr432tR/d476FK3X/TE7BXub3FQ8szyLxm4DxELk9hGK4j/+KONQBeGNtKXoncN9vxXZhZNWzVnlmzvAGi5u48MzrrcDfZuj2IQgO3vZFLxAHzKJU7YqBT+fEzDHRovaJYOfVhO+EwsAa0+AU+WONUkMC2NtPnT6PjZtCmfIliP3mnctWZnqv4p4fhk0DL8GwQxXNeuOQ52/HKgtU0DmexjdBBZkrJDd4hX7tVFD+2CKf4KvS2Q2Ro3WcTrr9WHdoXokchEs7RalF1apFwypPO7+tzhJ4CLgbbKQePGtikRGgvdJJpJaQVV3PqWDoLy7L9X1vegT557vo+rVNgzMQNXyqV0GVQnQO49VfiNI4c/K/qCahyVLYoSRpWUVNHOvmPyiZ0nH8ESE9gSJKMawavuemiFOYNMH7jvDsxnqMe/IgbGqEgkK9KoEfHiKyJQP7JEZSKMSi4YcYnB7IR/mTew9ubWeR0xO9HwD/cd0YMsE4URVe25E/tiDnFsbmJ1Q8biAQxNOOoagVXS2l9i06KWFeWUfoMAIH+TA/TibknoGNsWK0D/jV3t"
+                }
+              },
+              "description_text" : "Create a data class called Car with the following read only properties:\n- Year (Int)\n- Manufacturer (String)\n- Wheels (Int)\n\nIt should have Color (String) as a read/write property\n\nTwo cars should be equal if the year, manufacturer, and wheels are the same, even if the color is different.",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
+    },
+    {
+      "title" : "Intermediate Properties & Functions",
+      "items" : [
+        {
+          "title" : "Top Level Properties",
+          "task_list" : [
+            {
+              "name" : "Top Level Property",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "qXqNLW3pXkOszyxB7LojzQ=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 1,
+                      "length" : 24,
+                      "possible_answer" : "BAOUaK68rtEJS7+eTqrNPctz+Qinm5iTEPJUTwo6Nqk=",
+                      "placeholder_text" : "TODO(\"Define MIN_DELAY\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "ymkCIjRRHWPywkUejDXGBgh70NzPzPGgt8qE0ZWSns2sJ3kMytdjKc+l1+rtnD3aD0UQECEzu3RCyRYb++C2F5B9+XGJbYwTq0DYhrfPOZw="
+                }
+              },
+              "description_text" : "Define a top-level property named `MIN_DELAY` that is initialized to the value 5000.\n\nThis property should only be accessible within `Main.kt`",
+              "description_format" : "MD",
+              "task_type" : "output"
+            },
+            {
+              "name" : "Extension Properties",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "SO+dvl+3TnYqOXHc3oruyg=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 76,
+                      "length" : 49,
+                      "possible_answer" : "jYOW+vLxEGf6UdjUSgxfbqOmkrl4v+ZxV1XIhecbmep5aKdE1jAzwrJl24hCGQ1RAqtiXl7yvAv3aAqMVevyuhvmukrge69bKfWHLcMZWMk=",
+                      "placeholder_text" : "TODO(\"Define the displayName extension property\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "kSTbnnRQRWUPrS8S+t78h8M+ewGZNGBh/UhXax2A01wbaIKjN3lPZuAv3vPsTwX4weH0WOZaGaUiQZMj/OzpP5KuupwAKtFueF4thmWCnpUWoEhPVotaBq1157eQkl39K482Fn3X3T0az/IV3chqn6e8J5nZ5S+IzhIk0tCLO333gnVGRcJ/yVAur/4svK0VsKsiPWfqgyIlqwmrO7Z3vaul6ivAzstlsmqJmwmHPFRZ4og6ZfJ0j2V6P6EFcbyro2lSox7fRyt9wzqcMRRBAGpuodtir1UuMfDq7U/IzWQ="
+                }
+              },
+              "description_text" : "Define an extension property on the `Student` class.\n\nThe property \n- should be named `displayName`\n- should be of type `String`\n- should return a lowercase string with first name, space, last name\n\nex:\n- firstName = Peter\n- lastName = Parker\n- displayName = peter parker",
+              "description_format" : "MD",
+              "task_type" : "output"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Top Level Functions",
+          "task_list" : [
+            {
+              "name" : "Extension Functions",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 132,
+                      "length" : 45,
+                      "possible_answer" : "4222M9FyA8b5ao+v94AaDAEYEMIJvML0RuPKWsNMtmUzWA54A+8npKQyA84Qu7uF7yA1KPDZlC717WdVJFQs3g==",
+                      "placeholder_text" : "TODO(\"Write the toTask() extension function\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "uZTsC+Tmpvy1/rGRpeAwDIGss6uGhlJlvNWO+evTnbXCNH6b2+nKXYBcAD/Anzrf/LWo+e0naGaRA/VvBx9YyeuchcKZcUbFt8b+az6TfrRcWLf+bvPnHz8txMRigUbYONIjtgNwDbl10qGo6JwgubF2amTl633Ji1dKJyeTJoFEc2pep+ucS0wIxaEoG0DQymh+yy16RYKPQwNmJIfOCdAO1xFUstWkd6snTIUCudr3yeTBFPT/K2IvC2+74+0D37roopSgHs0idEoEswlhO/G/MpzeIYabtGOtmR8CWts1qJf1AwMdj40StaHcpJOLnoCjZJnfYnRZ6mcqgmWhEtK1dOY0JZseOEiu4VAlDfB3HjypnJd5LLWp+sPz2YL7cRi/b1KolKZU/Rr+ySakNA=="
+                }
+              },
+              "description_text" : "Write an extension function on the `TaskEntity` type to convert `TaskEntity` to a `Task`.\n\nThis function should only be accessible within `Main.kt`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
+    },
+    {
+      "title" : "Functional Types",
+      "items" : [
+        {
+          "title" : "Function Types",
+          "task_list" : [
+            {
+              "name" : "Function Variable",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "jEzzLEIUg3vnXQFXZFFSdg=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 21,
+                      "length" : 25,
+                      "possible_answer" : "L59rFh+RinU51Kn0Eg/wkmS5ed9tZJYlAw/yORErbXw=",
+                      "placeholder_text" : "TODO(\"Define the lambda\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "olBuYGdPL2m9Vi+6S1eEL7rWiELMBIJwBCcZA4inj9A7UKmVf1E7reqPEFTsBp5HYUx+8auq+VizbzEXwdL5OsCnVSZx8F/wdAMtjZEYfw1wFmZlIEW2zNqghRrCvm1F"
+                }
+              },
+              "description_text" : "Finish implementing the `adder` function variable.\n\nDefine the lambda the takes 2 `Int` parameters, and adds those values.",
+              "description_format" : "MD",
+              "task_type" : "output"
+            },
+            {
+              "name" : "Anonymous Functions",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "BRycyQsgS65qv+LApKV5syiXxiDi5E+zhj3si8KYMR4="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 282,
+                      "length" : 53,
+                      "possible_answer" : "IbbAfTXU6VDOwZspbteztNVm1z6B2o/bfZfATq3u9x+uC9/NpDtQvsmMd9ViZaxA",
+                      "placeholder_text" : "TODO(\"Use an anonymous function to filter languages\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "EHjrQ+fqG+cHZAjuIISQk6r1zKZYicFtnAtuilO9p5w22QFBJ7PGw0s/AybUMUbxUHQFOKnkOgiQ+Mut+Qkl1qOYVfDBJsz6KFZwS8JwYiRjql2AFzsp0pwvTtvWnMQTxuPi9NkNfs8cUe4E7knxtB0I08bYDispxCgE+zaR6ZbFuEdc7beH04lYOey9gfoEYAALhpLg71pktvSqz2ekExhRxvsMtCaLxzLVWdI0vxs+7LUDjIx/a+BTf9tyW1ElaWGspqRSCtOI+He3MlopxyYnVdENZNBXSzSP5R1XTTGCwISlljvLaQMPcD0SdPtApJJS+S6jwjqyhagk9NHi40ExXmdseYnfj0cS6H3ffb3r4RF9PXCaMJVce+PBl45RO2+AhSFd52eX4qBXTcNe4B7pstfdH+WKlD9MpoC1SMiZMbM3VZlKzjMJRZU9V81Vq+nayjON+7irRCseCE0NPdhOJzx91UZlThv2En1j70SDR3BxtQk8G0soX8WN/4LwOp7F8J+UTIAJ1bDohI+ZfQ=="
+                }
+              },
+              "description_text" : "Filter the list so only languages whose name is less than 6 characters long are printed.\n\nFinish the implementation by passing an anonymous function as the predicate for the call to `filter()`",
+              "description_format" : "MD",
+              "task_type" : "output"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Higher Order Functions",
+          "task_list" : [
+            {
+              "name" : "Write a Higher Order Function",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 170,
+                      "length" : 65,
+                      "possible_answer" : "fPS4fGbhHi1W5hp2HJxypA==",
+                      "placeholder_text" : "TODO(\"Define a function parameter named action that returns a T\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "l3CFdVwWRLu5ndD/cNHUX+ERgwNxLS5urER2mAuBX0D6f4kVPUlyuuUW+BPxd/DI0NnOpTAmL/LXPTMiU5/t58RMTM0P3s7BLeBoS7MQBtKbsUD/gySpriVDR3qpDV9O3f6M/+sSjCyEXoMDpGroAf5XD2JquE0frUxxmdGO12UOBVFXE9A9psLv/LAHg+V3hisdVScaxA+ZneuOOiCWWQfFQigqDsbTMAd4AP+aQMjVBBcwwTo2c0gn/VtENlPOTIBpP8UkXd5Z/vJvxIp3AhtEzejDSQ3duHRrLKk3DMbs4QA6kf9Mss6a2IQ52Ecn+i5XIJYaC4AH678mGNiaMIv9Coymo3h5Kn73AQndSzLgdfra7hsnL3B0Cw9tq57KIHi8SgI9On+wqnx8VCK2DsW2sEgQ3vh9wukQmiJ/NaXV3N+UYIw/u5CQzj0yxaq3xLPNeuPNRn8eDQC8nuW/yoO+gZJ0YH5wDugT2RdhX85M12gLXvR3Wnx6I+9c94mVVfSQJ72Q+gJ3pXXZpAGUd2JYGMRMH/sEw1uPIUz4i9RW+UQszR2faTtlROAHpSHS"
+                },
+                "src/helpers.kt" : {
+                  "name" : "src/helpers.kt",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "EXEG86qEx5By4/taaHkoAr4s22I8Mu6UMbsDU48pA/4="
+                }
+              },
+              "description_text" : "Finish implementing `performAction()`.\n\nDefine the `action` parameter of the function.\n- It should take no parameters\n- It should return an instance of `T`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            },
+            {
+              "name" : "Write a Function with Receiver",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 336,
+                      "length" : 28,
+                      "possible_answer" : "R+l74dh+I2CD/4P4Cg+4NcURYxeWdCPUDMKhgGrXUoIvReryyx/oyi7cHNIErpaf0CjiYHmt+Dc8jMPcJas8/P7JNkq0z7JVFvR09S9Su3U=",
+                      "placeholder_text" : "TODO(\"Write a track method\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "gujv4CesPan1FVGgKiupSZNv4naq3NuuTp2A+MdyQTFrJA900c5jDq+tdDe2sJPH9GU5RMNrsjYChvCUPKKehG3ExKsGSnvAQHRxmXC7xfm28AHPb5Yv+IJbhbUErqQhtXYvrPKE+7ttgLOXN0HRqleNn5beKx9vErAETP0mU2nIz3vlj9/SPWFYZIxXdIPbblQj28jE+60t3psP9FJoyucbWDYuOiGCiaBf3CvpMffEyrw9kqmShQXmigV2OBEudDW46w9S+4Mnoln0lWLLfxGPglnL5+nQRSPhQCjV/JWaubCa+IrHHXsDmiAWnHgpfQQq8sv1/fihdJU1yTofBmfBBppsvfmZ/rva72O2s2DfqFeLpekrlnGsRq9dEzAMFRwMqfE4V2RM8VOv5TJo+nd/V5q6eje+Ok4rrnJKdOqpn1L2VX7kTU0LQM7RdP/ygnJ0mthh0k6HT/wPS19wQs5BRf7R8UwJ5i74f0RznIILo2o+VQYKyrQfU/S/PvVFeIonSs16MYuY+JCTSqAemSG1HiB+2UVJCoEaqTZks6TXFMju5PPYFQruCw1GE3V5zYjkr7AAb3U4Il0UE9FKlvBjYzPMe0AuAYeE1nKlXS778g6WKfvWIEvYL9U7U9GKvSZcRRbAtDUDK8Rb1c96aRsoH8zxpLx2KXIz2oiDiDX7u2vJikwGL7ix4Jh9CE7FHakmXia/JJJqmpzfpSdCjhFrjLo/NAb+F7xw6L+7q9I="
+                }
+              },
+              "description_text" : "Create an extension function on the AnalyticsEvent class.\n\n- The function should be named track\n- The function should take a single function parameter named `init` that has `AnalyticsEvent` as a receiver and returns `Unit`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
+    },
+    {
+      "title" : "Delegation",
+      "items" : [
+        {
+          "title" : "Standard Delegates",
+          "task_list" : [
+            {
+              "name" : "Lazy Delegate",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 53,
+                      "length" : 31,
+                      "possible_answer" : "vuw9r4L+g8mAMTJgOUm0Uq1qx7zg+06lCxpTrE99W1Xw0Keohbd5U71BwkOXmsBVTfJCpO5SrGVtEwNq9iDUJmnFOJVWVtmKg0VVcl90Fjg=",
+                      "placeholder_text" : "TODO(\"Implement lazy delegate\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "XLfQHDrZk3yumfHI/vGO6qBg923yPv/EyMzRdV+ohUEgxuWSKY8XnEOPlWjSrbZLde+TA5fZ/+HXR4L/TNST6obppbtvnIiDVZQE7rlk5j4447Fy8FETdKAYr/FGgtEei0Bfv8wNQ8GuZGdwAZMhMkmkiDYXgETnu1qNfm/R14MLCuaDRJcmrOwO/m3BQwYQZHO7+v2MPY0l5yzXQsn+Li3RQ2VeJ1ECP3zv/nD3bNE="
+                }
+              },
+              "description_text" : "Finish the declaration of `random` by using a lazy delegate.\n\nThe lazy delegate should print `\"Generating value\"` when it's evaluated.\n\nThe output of the code should look like:\n`\"Generating value\"`\n<random value>\n<random value>\n\nwhere <random value> is the result of calling `Random.nextInt(100)`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Custom Delegates",
+          "task_list" : [
+            {
+              "name" : "Create a Custom Delegate",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 52,
+                      "length" : 41,
+                      "possible_answer" : "KAaKD/Q3TtIpdibcQzlJ0PeCNvsr1fryBFdosys53TDH4/CUpnIch8ikIyBcKWp0gV6R0Iv5St6KmOyvUW02Dmd2XOnTxa3ugZ9HRtpEAVICb1jgysgsvGjKqZ7JQmunthgcNfn727oDNZhXMoQU4WI5RnLK4EJ+vnQoiHzO73ziFhF+ZLtRscbC3/bcxCWWx1kObkBRaVCgfxJ5Qs9A+lCsflxDZH0Xv0glI1eyBLc6UcAGMhvyAg7osBxu64QORyRtZwZOyVG8tp+KS1n8EhbvIr8ASm3GvEQ6l/na2kmaw0v0fsAtHrPsAIrZZO6hHMF20GQjleroZwDQTfRAO4fGzIpyMD8QbEIWNwf1fk2akK6w5z5Z2bYbVXhvPdrICVvL5/FP1MZsl+dxAMZ+XQ==",
+                      "placeholder_text" : "TODO(\"Finish implementing the Dog class\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "D41W2AdILrRbHTaXRHehBUXyAH58prH4utMD4g2qyGradzy5X1zAwE7s51HWyyOAbM36TxAFVYY9C0jgTUJbp+64P7eKly+yGsdDCCMrBhVom80nWHe+h1+S9vNsJ93C8mNLRz3L21omu8pJik9MldOeziAOvhrw4rGQl8R8PL2z3DdoxBRVoBbEjsb7uBpUc7LCa+Zipnsvcl35BOZPeoYbLzmHQA7zhJ8wtgPqmvyPsyiW5SPYBi2g6z7CT32EGFffWTsRPbZTJF+w+X1epNIBWI3CI3rLgMezj92ogaspB9jM8c/yOGdowSN+4ZldekoozmSi7C9qKcRL/ehBeagNIolWzIdP1BO8nMRhXDVgPuv6lu0Q8dI+e1KVmHobhHVc2iGvU1ZkqDGyNpNkH4XUjFtcd8g2uLLcXxl+52FE7CvNiTUajGJeuNRzPBkQ3XFgXO6giZdIn3NiezuGDeR6G8EOBR5Rprq5EicViIFDJ5oVqpN09aLi7WKXhNdNia8lkLTbu+t6JBDyZda4lX5Fnbk8JSNa65jiNg1g90k4+wb0VcHxzBJpHxQHMP0qwGPYNKstlUi9B7w3x2Ha9pYuZP3U9Dm9niSwytLrEPCb6Ps0AJoW8JOWGhMuNq2RYpR59XWSxgQx6UZH2h7fIN15u30iyjcQ0l9y/j5DJJ3+aaj4wVSd+es5Dg1SR/yw1eSDLDSWuA+L0w3it58UKjm1RuKBuufbmR2ep27aiduNmJtBN7aSWfLMaZ64QWEfqm390qBDZaVIt99+FmLXgVt22OGgaOaoxIaioN58DlYIiP2UFoj/8SFGWxI77rjsWdXHhEGkrSc5WpAhAD+sSGcyZSXQPlhAU2LbGace4CvLcGEOKm+YY1AUX5qiWbU47rERCOvkbzXWyb+DxRd0E0E6PpmtLiM+bV5dpqoiJ9LAAUxzS0ZAQtg+OyjqZMoX1jctQZw14VZDtX6WGLZzWDd4HVJu72wVhezcDgdCjpHcvmraZQMw/W3ScidWagoW3qGQXJuUbrtdlk8aXr4d+1uxaAGbFpQ6qSchTC5UcLYwlVzzB+TQ/HpQpPXCjWO5Tjmhr/rj31vcvu+AJCx+uacZtJrGefqFZzPrE5vpDvFK/SttMq9uLR4WYiSE88BWnu/2vA9yzUlVWRg6edo00872Mr/pz9DI2hMHcKkgor/9ZWIEs2okJfRtSBIPQAh7EX0eW4ndjw6QYyabaUPF+ANTxdA4e0I8DS/UmYxxVrZnWKatth5SIM2ZiICPoN1XOinPlmsNX1Mvv4otL7WFcur/KS5d9u/IR31j5yWuq5wcfgOTnEyc2UwOcd5w4pZOCeo/ICThp0ZUWdSHBjWwHsfd8FkLlrtAcQYBMF8HbULz9evTbqpaCr6bdsJJvY6sqT4YNE7xyhjM9VWIZHGqEvcrFUtNYKTq0f2OV8HZl2WJkL+PWiEOGjRSEc59OeIXMCmrL5MuBqUWKIBPzyaBFkUdaPdqCobgGF6COY1M6yM0VGS/eAT5KTFYi+x2jKkNI41xA+fQYWGcNBxDFm2SHddPPekaXfFcWLbsMxvzJaxvlofx+APpUMcnpF9EWMoo"
+                }
+              },
+              "description_text" : "Create a class `Dog`\n\n- Give `Dog` a read/write property `name`\n- Give `Dog` a property `nameChangedCount` that counts how many times `name` has been changed\n- Give `Dog` a property `isConfused` that's `true` once it's name changes 3+ times\n\n* A `Dog`'s name is NOT allowed to be \"Cat\"",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "build.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "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"
+    }
+  ],
+  "version" : 12,
+  "edu_plugin_version" : "2021.11-2021.3-271"
+}

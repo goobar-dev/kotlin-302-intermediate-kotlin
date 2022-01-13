@@ -1,0 +1,10 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+- name: src/Main.kt
+  visible: true
+  placeholders:
+  - offset: 1
+    length: 29
+    placeholder_text: TODO("Define MIN_DELAY")

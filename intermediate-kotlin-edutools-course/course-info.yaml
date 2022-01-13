@@ -1,0 +1,17 @@
+title: Intermediate Kotlin Workshop
+language: English
+summary: |-
+  This is an intermediate Kotlin course.
+  - The course will be most beneficial for beginner-intermediate Kotlin learners.
+  - The course covers intermediate Kotlin features.
+  - It contains hands-on examples of Kotlin code implementation and exercises to practice new skills.
+  - The course is based on the author's personal experience in Kotlin development.
+vendor:
+  name: n8ebel
+programming_language: Kotlin
+content:
+- welcome
+- Basics Overview
+- Intermediate Properties & Functions
+- Functional Types
+- Delegation
