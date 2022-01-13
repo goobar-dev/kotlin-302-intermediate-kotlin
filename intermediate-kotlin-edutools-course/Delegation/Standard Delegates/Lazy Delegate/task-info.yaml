@@ -1,0 +1,8 @@
+type: theory
+files:
+- name: src/Main.kt
+  visible: true
+  placeholders:
+  - offset: 53
+    length: 67
+    placeholder_text: TODO("Implement lazy delegate")

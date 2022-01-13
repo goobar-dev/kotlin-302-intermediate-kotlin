@@ -444,6 +444,66 @@
         }
       ],
       "type" : "section"
+    },
+    {
+      "title" : "Delegation",
+      "items" : [
+        {
+          "title" : "Standard Delegates",
+          "task_list" : [
+            {
+              "name" : "Lazy Delegate",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 53,
+                      "length" : 31,
+                      "possible_answer" : "vuw9r4L+g8mAMTJgOUm0Uq1qx7zg+06lCxpTrE99W1Xw0Keohbd5U71BwkOXmsBVTfJCpO5SrGVtEwNq9iDUJmnFOJVWVtmKg0VVcl90Fjg=",
+                      "placeholder_text" : "TODO(\"Implement lazy delegate\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "XLfQHDrZk3yumfHI/vGO6qBg923yPv/EyMzRdV+ohUEgxuWSKY8XnEOPlWjSrbZLde+TA5fZ/+HXR4L/TNST6obppbtvnIiDVZQE7rlk5j4447Fy8FETdKAYr/FGgtEei0Bfv8wNQ8GuZGdwAZMhMkmkiDYXgETnu1qNfm/R14MLCuaDRJcmrOwO/m3BQwYQZHO7+v2MPY0l5yzXQsn+Li3RQ2VeJ1ECP3zv/nD3bNE="
+                }
+              },
+              "description_text" : "Finish the declaration of `random` by using a lazy delegate.\n\nThe lazy delegate should print `\"Generating value\"` when it's evaluated.\n\nThe output of the code should look like:\n`\"Generating value\"`\n<random value>\n<random value>\n\nwhere <random value> is the result of calling `Random.nextInt(100)`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Custom Delegates",
+          "task_list" : [
+            {
+              "name" : "Create a Custom Delegate",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 52,
+                      "length" : 41,
+                      "possible_answer" : "KAaKD/Q3TtIpdibcQzlJ0PeCNvsr1fryBFdosys53TDH4/CUpnIch8ikIyBcKWp0gV6R0Iv5St6KmOyvUW02Dmd2XOnTxa3ugZ9HRtpEAVICb1jgysgsvGjKqZ7JQmunthgcNfn727oDNZhXMoQU4WI5RnLK4EJ+vnQoiHzO73ziFhF+ZLtRscbC3/bcxCWWx1kObkBRaVCgfxJ5Qs9A+lCsflxDZH0Xv0glI1eyBLc6UcAGMhvyAg7osBxu64QORyRtZwZOyVG8tp+KS1n8EhbvIr8ASm3GvEQ6l/na2kmaw0v0fsAtHrPsAIrZZO6hHMF20GQjleroZwDQTfRAO4fGzIpyMD8QbEIWNwf1fk2akK6w5z5Z2bYbVXhvPdrICVvL5/FP1MZsl+dxAMZ+XQ==",
+                      "placeholder_text" : "TODO(\"Finish implementing the Dog class\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "D41W2AdILrRbHTaXRHehBUXyAH58prH4utMD4g2qyGradzy5X1zAwE7s51HWyyOAbM36TxAFVYY9C0jgTUJbp+64P7eKly+yGsdDCCMrBhVom80nWHe+h1+S9vNsJ93C8mNLRz3L21omu8pJik9MldOeziAOvhrw4rGQl8R8PL2z3DdoxBRVoBbEjsb7uBpUc7LCa+Zipnsvcl35BOZPeoYbLzmHQA7zhJ8wtgPqmvyPsyiW5SPYBi2g6z7CT32EGFffWTsRPbZTJF+w+X1epNIBWI3CI3rLgMezj92ogaspB9jM8c/yOGdowSN+4ZldekoozmSi7C9qKcRL/ehBeagNIolWzIdP1BO8nMRhXDVgPuv6lu0Q8dI+e1KVmHobhHVc2iGvU1ZkqDGyNpNkH4XUjFtcd8g2uLLcXxl+52FE7CvNiTUajGJeuNRzPBkQ3XFgXO6giZdIn3NiezuGDeR6G8EOBR5Rprq5EicViIFDJ5oVqpN09aLi7WKXhNdNia8lkLTbu+t6JBDyZda4lX5Fnbk8JSNa65jiNg1g90k4+wb0VcHxzBJpHxQHMP0qwGPYNKstlUi9B7w3x2Ha9pYuZP3U9Dm9niSwytLrEPCb6Ps0AJoW8JOWGhMuNq2RYpR59XWSxgQx6UZH2h7fIN15u30iyjcQ0l9y/j5DJJ3+aaj4wVSd+es5Dg1SR/yw1eSDLDSWuA+L0w3it58UKjm1RuKBuufbmR2ep27aiduNmJtBN7aSWfLMaZ64QWEfqm390qBDZaVIt99+FmLXgVt22OGgaOaoxIaioN58DlYIiP2UFoj/8SFGWxI77rjsWdXHhEGkrSc5WpAhAD+sSGcyZSXQPlhAU2LbGace4CvLcGEOKm+YY1AUX5qiWbU47rERCOvkbzXWyb+DxRd0E0E6PpmtLiM+bV5dpqoiJ9LAAUxzS0ZAQtg+OyjqZMoX1jctQZw14VZDtX6WGLZzWDd4HVJu72wVhezcDgdCjpHcvmraZQMw/W3ScidWagoW3qGQXJuUbrtdlk8aXr4d+1uxaAGbFpQ6qSchTC5UcLYwlVzzB+TQ/HpQpPXCjWO5Tjmhr/rj31vcvu+AJCx+uacZtJrGefqFZzPrE5vpDvFK/SttMq9uLR4WYiSE88BWnu/2vA9yzUlVWRg6edo00872Mr/pz9DI2hMHcKkgor/9ZWIEs2okJfRtSBIPQAh7EX0eW4ndjw6QYyabaUPF+ANTxdA4e0I8DS/UmYxxVrZnWKatth5SIM2ZiICPoN1XOinPlmsNX1Mvv4otL7WFcur/KS5d9u/IR31j5yWuq5wcfgOTnEyc2UwOcd5w4pZOCeo/ICThp0ZUWdSHBjWwHsfd8FkLlrtAcQYBMF8HbULz9evTbqpaCr6bdsJJvY6sqT4YNE7xyhjM9VWIZHGqEvcrFUtNYKTq0f2OV8HZl2WJkL+PWiEOGjRSEc59OeIXMCmrL5MuBqUWKIBPzyaBFkUdaPdqCobgGF6COY1M6yM0VGS/eAT5KTFYi+x2jKkNI41xA+fQYWGcNBxDFm2SHddPPekaXfFcWLbsMxvzJaxvlofx+APpUMcnpF9EWMoo"
+                }
+              },
+              "description_text" : "Create a class `Dog`\n\n- Give `Dog` a read/write property `name`\n- Give `Dog` a property `nameChangedCount` that counts how many times `name` has been changed\n- Give `Dog` a property `isConfused` that's `true` once it's name changes 3+ times\n\n* A `Dog`'s name is NOT allowed to be \"Cat\"",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
     }
   ],
   "additional_files" : [
