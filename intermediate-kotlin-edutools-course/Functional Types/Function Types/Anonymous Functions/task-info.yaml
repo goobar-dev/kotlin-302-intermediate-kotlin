@@ -1,0 +1,10 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+- name: src/Main.kt
+  visible: true
+  placeholders:
+  - offset: 282
+    length: 43
+    placeholder_text: TODO("Use an anonymous function to filter languages")

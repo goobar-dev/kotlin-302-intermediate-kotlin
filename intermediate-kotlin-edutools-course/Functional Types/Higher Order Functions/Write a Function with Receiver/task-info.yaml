@@ -1,0 +1,8 @@
+type: theory
+files:
+- name: src/Main.kt
+  visible: true
+  placeholders:
+  - offset: 336
+    length: 77
+    placeholder_text: TODO("Write a track method")

@@ -1,0 +1,11 @@
+type: theory
+files:
+- name: src/Main.kt
+  visible: true
+  placeholders:
+  - offset: 170
+    length: 15
+    placeholder_text: TODO("Define a function parameter named action that returns
+      a T")
+- name: src/helpers.kt
+  visible: true

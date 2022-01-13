@@ -324,6 +324,126 @@
         }
       ],
       "type" : "section"
+    },
+    {
+      "title" : "Functional Types",
+      "items" : [
+        {
+          "title" : "Function Types",
+          "task_list" : [
+            {
+              "name" : "Function Variable",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "jEzzLEIUg3vnXQFXZFFSdg=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 21,
+                      "length" : 25,
+                      "possible_answer" : "L59rFh+RinU51Kn0Eg/wkmS5ed9tZJYlAw/yORErbXw=",
+                      "placeholder_text" : "TODO(\"Define the lambda\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "olBuYGdPL2m9Vi+6S1eEL7rWiELMBIJwBCcZA4inj9A7UKmVf1E7reqPEFTsBp5HYUx+8auq+VizbzEXwdL5OsCnVSZx8F/wdAMtjZEYfw1wFmZlIEW2zNqghRrCvm1F"
+                }
+              },
+              "description_text" : "Finish implementing the `adder` function variable.\n\nDefine the lambda the takes 2 `Int` parameters, and adds those values.",
+              "description_format" : "MD",
+              "task_type" : "output"
+            },
+            {
+              "name" : "Anonymous Functions",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "BRycyQsgS65qv+LApKV5syiXxiDi5E+zhj3si8KYMR4="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 282,
+                      "length" : 53,
+                      "possible_answer" : "IbbAfTXU6VDOwZspbteztNVm1z6B2o/bfZfATq3u9x+uC9/NpDtQvsmMd9ViZaxA",
+                      "placeholder_text" : "TODO(\"Use an anonymous function to filter languages\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "EHjrQ+fqG+cHZAjuIISQk6r1zKZYicFtnAtuilO9p5w22QFBJ7PGw0s/AybUMUbxUHQFOKnkOgiQ+Mut+Qkl1qOYVfDBJsz6KFZwS8JwYiRjql2AFzsp0pwvTtvWnMQTxuPi9NkNfs8cUe4E7knxtB0I08bYDispxCgE+zaR6ZbFuEdc7beH04lYOey9gfoEYAALhpLg71pktvSqz2ekExhRxvsMtCaLxzLVWdI0vxs+7LUDjIx/a+BTf9tyW1ElaWGspqRSCtOI+He3MlopxyYnVdENZNBXSzSP5R1XTTGCwISlljvLaQMPcD0SdPtApJJS+S6jwjqyhagk9NHi40ExXmdseYnfj0cS6H3ffb3r4RF9PXCaMJVce+PBl45RO2+AhSFd52eX4qBXTcNe4B7pstfdH+WKlD9MpoC1SMiZMbM3VZlKzjMJRZU9V81Vq+nayjON+7irRCseCE0NPdhOJzx91UZlThv2En1j70SDR3BxtQk8G0soX8WN/4LwOp7F8J+UTIAJ1bDohI+ZfQ=="
+                }
+              },
+              "description_text" : "Filter the list so only languages whose name is less than 6 characters long are printed.\n\nFinish the implementation by passing an anonymous function as the predicate for the call to `filter()`",
+              "description_format" : "MD",
+              "task_type" : "output"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Higher Order Functions",
+          "task_list" : [
+            {
+              "name" : "Write a Higher Order Function",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 170,
+                      "length" : 65,
+                      "possible_answer" : "fPS4fGbhHi1W5hp2HJxypA==",
+                      "placeholder_text" : "TODO(\"Define a function parameter named action that returns a T\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "l3CFdVwWRLu5ndD/cNHUX+ERgwNxLS5urER2mAuBX0D6f4kVPUlyuuUW+BPxd/DI0NnOpTAmL/LXPTMiU5/t58RMTM0P3s7BLeBoS7MQBtKbsUD/gySpriVDR3qpDV9O3f6M/+sSjCyEXoMDpGroAf5XD2JquE0frUxxmdGO12UOBVFXE9A9psLv/LAHg+V3hisdVScaxA+ZneuOOiCWWQfFQigqDsbTMAd4AP+aQMjVBBcwwTo2c0gn/VtENlPOTIBpP8UkXd5Z/vJvxIp3AhtEzejDSQ3duHRrLKk3DMbs4QA6kf9Mss6a2IQ52Ecn+i5XIJYaC4AH678mGNiaMIv9Coymo3h5Kn73AQndSzLgdfra7hsnL3B0Cw9tq57KIHi8SgI9On+wqnx8VCK2DsW2sEgQ3vh9wukQmiJ/NaXV3N+UYIw/u5CQzj0yxaq3xLPNeuPNRn8eDQC8nuW/yoO+gZJ0YH5wDugT2RdhX85M12gLXvR3Wnx6I+9c94mVVfSQJ72Q+gJ3pXXZpAGUd2JYGMRMH/sEw1uPIUz4i9RW+UQszR2faTtlROAHpSHS"
+                },
+                "src/helpers.kt" : {
+                  "name" : "src/helpers.kt",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "EXEG86qEx5By4/taaHkoAr4s22I8Mu6UMbsDU48pA/4="
+                }
+              },
+              "description_text" : "Finish implementing `performAction()`.\n\nDefine the `action` parameter of the function.\n- It should take no parameters\n- It should return an instance of `T`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            },
+            {
+              "name" : "Write a Function with Receiver",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 336,
+                      "length" : 28,
+                      "possible_answer" : "R+l74dh+I2CD/4P4Cg+4NcURYxeWdCPUDMKhgGrXUoIvReryyx/oyi7cHNIErpaf0CjiYHmt+Dc8jMPcJas8/P7JNkq0z7JVFvR09S9Su3U=",
+                      "placeholder_text" : "TODO(\"Write a track method\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "gujv4CesPan1FVGgKiupSZNv4naq3NuuTp2A+MdyQTFrJA900c5jDq+tdDe2sJPH9GU5RMNrsjYChvCUPKKehG3ExKsGSnvAQHRxmXC7xfm28AHPb5Yv+IJbhbUErqQhtXYvrPKE+7ttgLOXN0HRqleNn5beKx9vErAETP0mU2nIz3vlj9/SPWFYZIxXdIPbblQj28jE+60t3psP9FJoyucbWDYuOiGCiaBf3CvpMffEyrw9kqmShQXmigV2OBEudDW46w9S+4Mnoln0lWLLfxGPglnL5+nQRSPhQCjV/JWaubCa+IrHHXsDmiAWnHgpfQQq8sv1/fihdJU1yTofBmfBBppsvfmZ/rva72O2s2DfqFeLpekrlnGsRq9dEzAMFRwMqfE4V2RM8VOv5TJo+nd/V5q6eje+Ok4rrnJKdOqpn1L2VX7kTU0LQM7RdP/ygnJ0mthh0k6HT/wPS19wQs5BRf7R8UwJ5i74f0RznIILo2o+VQYKyrQfU/S/PvVFeIonSs16MYuY+JCTSqAemSG1HiB+2UVJCoEaqTZks6TXFMju5PPYFQruCw1GE3V5zYjkr7AAb3U4Il0UE9FKlvBjYzPMe0AuAYeE1nKlXS778g6WKfvWIEvYL9U7U9GKvSZcRRbAtDUDK8Rb1c96aRsoH8zxpLx2KXIz2oiDiDX7u2vJikwGL7ix4Jh9CE7FHakmXia/JJJqmpzfpSdCjhFrjLo/NAb+F7xw6L+7q9I="
+                }
+              },
+              "description_text" : "Create an extension function on the AnalyticsEvent class.\n\n- The function should be named track\n- The function should take a single function parameter named `init` that has `AnalyticsEvent` as a receiver and returns `Unit`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
     }
   ],
   "additional_files" : [
