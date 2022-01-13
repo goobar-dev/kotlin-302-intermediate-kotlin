@@ -1,1 +1,0 @@
-# Lesson 02 - Top-level Properties & Functions

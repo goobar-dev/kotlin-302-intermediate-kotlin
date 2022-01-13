@@ -233,16 +233,93 @@
       "type" : "section"
     },
     {
-      "title" : "Top Level Properties & Functions",
+      "title" : "Intermediate Properties & Functions",
       "items" : [
         {
           "title" : "Top Level Properties",
-          "task_list" : [ ],
+          "task_list" : [
+            {
+              "name" : "Top Level Property",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "qXqNLW3pXkOszyxB7LojzQ=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 1,
+                      "length" : 24,
+                      "possible_answer" : "BAOUaK68rtEJS7+eTqrNPctz+Qinm5iTEPJUTwo6Nqk=",
+                      "placeholder_text" : "TODO(\"Define MIN_DELAY\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "ymkCIjRRHWPywkUejDXGBgh70NzPzPGgt8qE0ZWSns2sJ3kMytdjKc+l1+rtnD3aD0UQECEzu3RCyRYb++C2F5B9+XGJbYwTq0DYhrfPOZw="
+                }
+              },
+              "description_text" : "Define a top-level property named `MIN_DELAY` that is initialized to the value 5000.\n\nThis property should only be accessible within `Main.kt`",
+              "description_format" : "MD",
+              "task_type" : "output"
+            },
+            {
+              "name" : "Extension Properties",
+              "files" : {
+                "test/output.txt" : {
+                  "name" : "test/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "SO+dvl+3TnYqOXHc3oruyg=="
+                },
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 76,
+                      "length" : 49,
+                      "possible_answer" : "jYOW+vLxEGf6UdjUSgxfbqOmkrl4v+ZxV1XIhecbmep5aKdE1jAzwrJl24hCGQ1RAqtiXl7yvAv3aAqMVevyuhvmukrge69bKfWHLcMZWMk=",
+                      "placeholder_text" : "TODO(\"Define the displayName extension property\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "kSTbnnRQRWUPrS8S+t78h8M+ewGZNGBh/UhXax2A01wbaIKjN3lPZuAv3vPsTwX4weH0WOZaGaUiQZMj/OzpP5KuupwAKtFueF4thmWCnpUWoEhPVotaBq1157eQkl39K482Fn3X3T0az/IV3chqn6e8J5nZ5S+IzhIk0tCLO333gnVGRcJ/yVAur/4svK0VsKsiPWfqgyIlqwmrO7Z3vaul6ivAzstlsmqJmwmHPFRZ4og6ZfJ0j2V6P6EFcbyro2lSox7fRyt9wzqcMRRBAGpuodtir1UuMfDq7U/IzWQ="
+                }
+              },
+              "description_text" : "Define an extension property on the `Student` class.\n\nThe property \n- should be named `displayName`\n- should be of type `String`\n- should return a lowercase string with first name, space, last name\n\nex:\n- firstName = Peter\n- lastName = Parker\n- displayName = peter parker",
+              "description_format" : "MD",
+              "task_type" : "output"
+            }
+          ],
           "type" : "lesson"
         },
         {
           "title" : "Top Level Functions",
-          "task_list" : [ ],
+          "task_list" : [
+            {
+              "name" : "Extension Functions",
+              "files" : {
+                "src/Main.kt" : {
+                  "name" : "src/Main.kt",
+                  "placeholders" : [
+                    {
+                      "offset" : 132,
+                      "length" : 45,
+                      "possible_answer" : "4222M9FyA8b5ao+v94AaDAEYEMIJvML0RuPKWsNMtmUzWA54A+8npKQyA84Qu7uF7yA1KPDZlC717WdVJFQs3g==",
+                      "placeholder_text" : "TODO(\"Write the toTask() extension function\")"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "uZTsC+Tmpvy1/rGRpeAwDIGss6uGhlJlvNWO+evTnbXCNH6b2+nKXYBcAD/Anzrf/LWo+e0naGaRA/VvBx9YyeuchcKZcUbFt8b+az6TfrRcWLf+bvPnHz8txMRigUbYONIjtgNwDbl10qGo6JwgubF2amTl633Ji1dKJyeTJoFEc2pep+ucS0wIxaEoG0DQymh+yy16RYKPQwNmJIfOCdAO1xFUstWkd6snTIUCudr3yeTBFPT/K2IvC2+74+0D37roopSgHs0idEoEswlhO/G/MpzeIYabtGOtmR8CWts1qJf1AwMdj40StaHcpJOLnoCjZJnfYnRZ6mcqgmWhEtK1dOY0JZseOEiu4VAlDfB3HjypnJd5LLWp+sPz2YL7cRi/b1KolKZU/Rr+ySakNA=="
+                }
+              },
+              "description_text" : "Write an extension function on the `TaskEntity` type to convert `TaskEntity` to a `Task`.\n\nThis function should only be accessible within `Main.kt`",
+              "description_format" : "MD",
+              "task_type" : "theory"
+            }
+          ],
           "type" : "lesson"
         }
       ],
