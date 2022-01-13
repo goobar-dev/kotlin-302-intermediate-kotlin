@@ -10,12 +10,12 @@ enum class MenuItem {
     PIZZA, SALAD, BREADSTICKS, SODA, WATER, MARINARA
 }
 
-data class Order(val items: List<MenuItem>)
+private data class Order(val items: List<MenuItem>)
 
 // We can overload an operator using both extension functions, or a member function
 
 // Here, we'll define an extension to enable us to add 2 orders together to create a single order
-operator fun Order.plus(order: Order): Order {
+private operator fun Order.plus(order: Order): Order {
     return Order(this.items + order.items)
 }
 
