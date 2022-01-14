@@ -8,29 +8,32 @@ import kotlin.collections.ArrayList
 // Java/Kotlin Interop
 
 // Kotlin is designed with Java Interoperability in mind.
-// Existing Java code can be called from Kotlin in a natural way,
-// and Kotlin code can be used from Java rather smoothly as well.
+// Existing Java code can be called from Kotlin in a natural way, and Kotlin code can be
+// used from Java rather smoothly as well.
+
+// ArrayList comes from Java here, and is typealiased to make easier to reference
 typealias JList = ArrayList<Int>
 
 fun demo(source: List<Int>) {
     val list = ArrayList<Int>()
+
     // 'for'-loops work for Java collections:
     for (item in source) {
         list.add(item)
     }
+
     // Operator conventions work as well:
     for (i in 0 until source.size) {
         list[i] = source[i] // get and set are called
     }
 }
 
-//////////////////////
+
 // Getters and Setters
 
 // Methods that follow the Java conventions for getters and setters
-// (no-argument methods with names starting with get and
-// single-argument methods with names starting with set) are
-// represented as properties in Kotlin.
+// (no-argument methods with names starting with get and single-argument methods with names starting with set)
+// are represented as properties in Kotlin.
 
 // Boolean accessor methods (where the name of the getter starts with
 // is and the name of the setter starts with set) are represented as
@@ -47,7 +50,7 @@ fun calendarDemo() {
 }
 
 fun main() {
-    val foo = FooBar()
+    val foo = FooBar() // create instance of class defined in Java
     val bar: Unit = foo.getBar()
 }
 
@@ -56,7 +59,7 @@ fun main() {
 // set-only properties at this time.
 
 
-/////////////////////////
+
 // Methods returning void
 
 // If a Java method returns void, it will return Unit when called from Kotlin.
@@ -65,20 +68,20 @@ fun main() {
 // itself is known in advance (being Unit).
 
 
-////////////////////////////////////////////////////////////
+
 // Escaping for Java identifiers that are keywords in Kotlin
 
-// Some of the Kotlin keywords are valid identifiers in Java: in,
-// object, is, etc.
+// Some Kotlin keywords are valid identifiers in Java: in, object, is, etc.
 
 // If a Java library uses a Kotlin keyword for a method,
-// you can still call the method escaping it with the backtick (`) character:
+// you can still call the method by escaping it with the backtick (`) character:
 fun mockitoDemo() {
     val mockedInterface = Mockito.mock()
     Mockito.`when`(mockedInterface).doSomething()
 }
 
-/////////////////////////////////
+
+
 // Null-Safety and Platform Types
 
 // Any reference in Java may be null, which makes Kotlin's
@@ -150,7 +153,8 @@ fun platformTypeDemo() {
 // - Array<(out) T>! means "Java array of T (or a subtype of T),
 //   nullable or not"
 
-//////////////////////////
+
+
 // Nullability Annotations
 
 // Best way to defend against platform types
@@ -164,7 +168,7 @@ fun platformTypeDemo() {
 // And more! see https://kotlinlang.org/docs/reference/java-interop.html#nullability-annotations
 
 
-///////////////////////////////////////////
+
 // SAM Conversions (Single Abstract Method)
 
 // Kotlin function literals can be automatically converted into
@@ -179,13 +183,23 @@ fun samDemo() {
     executor.execute { println("This runs in a thread pool") }
 }
 
-class KotlinClass {
-    @JvmName("jvmFoo")
-    fun foo(): String = ""
-}
-
 // Note that SAM conversions only work for interfaces,
 // not for abstract classes,
 // even if those also have just a single abstract method
+
+
+
+// @Jvm annotations
+// Using annotations, we can change how Kotlin classes/properties/methods are seen/accessed from Java
+
+class KotlinClass {
+
+    var aKotlinProperty: String = "some value"
+
+    @JvmName("jvmFoo") // We can change the JVM-visiblle name of this method
+    fun foo(): String = ""
+}
+
+// @file:JvmName("goobar")  apply this to top of file to change generated class name
 
 fun Any.doSomething() = Unit
