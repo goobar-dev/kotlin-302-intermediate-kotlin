@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.5.10"
+    kotlin("jvm") version "1.8.0"
     application
 }
 
@@ -19,12 +19,14 @@ dependencies {
     testImplementation("org.amshove.kluent:kluent:1.68")
 }
 
-tasks.test {
-    useJUnit()
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
 }
 
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+tasks.test {
+    useJUnit()
 }
 
 application {
