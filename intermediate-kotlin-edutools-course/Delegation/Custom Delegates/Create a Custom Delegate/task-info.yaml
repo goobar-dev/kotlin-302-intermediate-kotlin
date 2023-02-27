@@ -3,6 +3,6 @@ files:
 - name: src/Main.kt
   visible: true
   placeholders:
-  - offset: 52
+  - offset: 128
     length: 297
     placeholder_text: TODO("Finish implementing the Dog class")

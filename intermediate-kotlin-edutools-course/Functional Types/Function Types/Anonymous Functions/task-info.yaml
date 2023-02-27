@@ -5,6 +5,6 @@ files:
 - name: src/Main.kt
   visible: true
   placeholders:
-  - offset: 282
+  - offset: 357
     length: 43
     placeholder_text: TODO("Use an anonymous function to filter languages")

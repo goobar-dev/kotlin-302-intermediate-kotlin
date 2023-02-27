@@ -3,6 +3,6 @@ files:
 - name: src/Main.kt
   visible: true
   placeholders:
-  - offset: 78
+  - offset: 154
     length: 108
     placeholder_text: TODO("Create the Car data class")

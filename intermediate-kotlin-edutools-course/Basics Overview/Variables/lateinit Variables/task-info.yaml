@@ -3,6 +3,6 @@ files:
 - name: src/Main.kt
   visible: true
   placeholders:
-  - offset: 49
+  - offset: 125
     length: 8
     placeholder_text: TODO("Add the lateinit modifier")

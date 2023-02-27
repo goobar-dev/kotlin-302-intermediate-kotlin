@@ -5,6 +5,6 @@ files:
 - name: src/Main.kt
   visible: true
   placeholders:
-  - offset: 73
+  - offset: 149
     length: 14
     placeholder_text: TODO("Update the variable value to 10")

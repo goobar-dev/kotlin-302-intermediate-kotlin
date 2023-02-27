@@ -5,6 +5,6 @@ files:
 - name: src/Main.kt
   visible: true
   placeholders:
-  - offset: 76
+  - offset: 151
     length: 72
     placeholder_text: TODO("Define the displayName extension property")

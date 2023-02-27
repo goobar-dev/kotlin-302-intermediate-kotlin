@@ -11,9 +11,11 @@
   "items" : [
     {
       "title" : "welcome",
+      "custom_name" : "Welcome",
       "items" : [
         {
           "title" : "getting-started",
+          "custom_name" : "Getting Started",
           "task_list" : [
             {
               "name" : "hello-world",
@@ -23,7 +25,7 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [ ],
                   "is_visible" : true,
-                  "text" : "NDA7NYDJ4pT3F7ChgC7OnaefLLP4LZOA5iusv5206KdO+G3VFWYdZGJ4Ce/KbfhceRj2JYMZpOqtBB3nJgjIZZ2izq4P9rzsADSbBnA8H04="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvmwFflCX4VdACSq4Zg6Q2ZX2jeeP/eLM+XXuD5cFVr71pDywRTzgFISIJnwljLZeQlOKfaBX6KBjpOMrlAqdR0r4pxxLN/Gc1iHYeve8M0VAv"
                 }
               },
               "description_text" : "<html>\n\n<h2>Welcome to this Intermediate Kotlin Workshop</h2>\n\n<p>In this first section, you'll learn how to use the EduTools plugin to work through examples and exercises in support\n    of your workshop.</p>\n\n<h3>Tracking Progress</h3>\n\n<p>The EduTools plugin will track your progress as you work through the examples.\n    Each example should have a \"call to action\" button that says something like <b>Run</b> or <b>Check</b>.\n</p>\n\n<p>Clicking this button will validate your code, and will update your progress once you've completed the task.</p>\n\n<p>Some tasks, like this one, may have no code to write. In these cases, simply click <b>Run</b> when you're ready to\n    proceed to the next task.</p>\n</html>",
@@ -38,7 +40,7 @@
                   "name" : "src/Task.kt",
                   "placeholders" : [ ],
                   "is_visible" : true,
-                  "text" : "APwPHmksQgbex2LHpEKuItBuaAzZ9i0a75sxUjv7Jd97OQ8hHTyfb9Lqsz/0DGge"
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvmwFflCX4VdACSq4Zg6Q2ZX2+MevN8IyfoGzoNpVuPbL3zAGOmndUVb5SLcQgf1dQ/W85j8wvj6NJZsyEiR1+eCbQH+aEg2MDtdVwAsDmPcXnLKSqbc3puHYq3wCd9ZKeMceXXQ+JM+CNjzT1kNk2BAE="
                 },
                 "test/output.txt" : {
                   "name" : "test/output.txt",
@@ -70,20 +72,20 @@
                   "name" : "test/output.txt",
                   "placeholders" : [ ],
                   "is_visible" : false,
-                  "text" : "SC29kafQ2ubrToDjkSDVZw=="
+                  "text" : "h3UVQhhyRjhUsTULIXf7tQ=="
                 },
                 "src/Main.kt" : {
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 73,
+                      "offset" : 149,
                       "length" : 39,
                       "possible_answer" : "yWnRJTceUkqpDduBizp4wQ==",
                       "placeholder_text" : "TODO(\"Update the variable value to 10\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U0f+GnDtDALLUYJFX6765BUN1pTgSS+7vqV58lzPWtDJS5o02RYhLbGvOM9QL58CHrf4tH8NXTapTkebVGsJl4YxKCA6OAef2ZMf4++tfv10t7usJz51wyCuD6Nx+htigY4HL0eF1CQB6b80IcjslPt"
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvmwFflCX4VdACSq4Zg6Q2ZX2jeeP/eLM+XXuD5cFVr71pMUCXH9TMHWg53PimKYXzhMzrwZeg4EmbMeQeo/bhPThGpty0Ldfs7rVNq2ArgeMnEM5QKLlUWuqD9bIp5jGxcNzekx6ojXZAnl9CNin82GPUbqQ8wUpdQQdPRltzoqU/tqZSEK13PTgE5R3tCwchqcIK7EJu268SSBETj03+L9I="
                 }
               },
               "description_text" : "Update the value of the mutable variable so the number `10` is printed to the console.",
@@ -97,20 +99,20 @@
                   "name" : "test/output.txt",
                   "placeholders" : [ ],
                   "is_visible" : false,
-                  "text" : "kGtgwEdvEJurbiFA7y7OSQ=="
+                  "text" : "ZRvaO77W1DLVh1IzA2dmtg=="
                 },
                 "src/Main.kt" : {
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 49,
+                      "offset" : 125,
                       "length" : 37,
                       "possible_answer" : "/tk+5s46ew9wkv0DesU2/w==",
                       "placeholder_text" : "TODO(\"Declare as read-only variable\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U36zhLx2uPFIfxfqiaBGI1dVtwZ/BNCz0gS9ZmKUc9fOQb0hxwixqsoauDIComXU7JwJDn5687LIe1XbZ7wSmEs0eAAVeS8tHKLE4wGqf987Eb2MJ67Xtb/E+V/Uti0e9mHVV6qftQtyRj6psDAKwGxM+kARQDqxhbq57v9n94R3w=="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvmwFflCX4VdACSq4Zg6Q2ZX2jeeP/eLM+XXuD5cFVr71pMUCXH9TMHWg53PimKYXzhLk9+FJKDTdYU0+cII0YpaE0t9OWrayCWMOgDphx8MVxidCq4LlZ/x8HbR9VR5hTABmLT/7nbyGO3XGus/kZDBKbG5W4DEwC66xy59nXruvoa9fVcxPfMG1qQQ9OQkv2Zim2aI6K9JbDZ56CTQSblmyY4yey+JeryoB/oXj+G59x"
                 }
               },
               "description_text" : "Finish the variable declaration of `readOnlyVariable`.\n\nThe variable should not allow value reassignment.",
@@ -124,14 +126,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 49,
+                      "offset" : 125,
                       "length" : 33,
                       "possible_answer" : "u+BzYGBszCbO8wIlUEexwA==",
                       "placeholder_text" : "TODO(\"Add the lateinit modifier\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U36zhLx2uPFIfxfqiaBGI1da9QnmY2ICH3dJAZySKVjw2pZZzAGk8ujZVT7PtrAErFwLcSndJrUJSv+ES0L5M/oIkYsO9rdrkmSDg7rXEqJ9fTSW4TwUrXu91GMy+vTYAk="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvmwFflCX4VdACSq4Zg6Q2ZX2jeeP/eLM+XXuD5cFVr71pMUCXH9TMHWg53PimKYXzhLk9+FJKDTdYU0+cII0YpaG8/QOAji6X+hC2XW1A5AMzCrSKv0PWewB1qCe8sxsVypsdSOcg0QK0tN110deVMfTRi1kmTaPpH7E0/ZJm4bj1Vo/IbG0CDtDbCNRtDRgM+w=="
                 }
               },
               "description_text" : "Add the `lateinit` modifier to the variable so the code snippet compiles.\n\nOnce compiled, the code should throw a runtime exception.\n\nWhy is the runtime exception thrown?\nHow would you fix that?",
@@ -151,7 +153,7 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [ ],
                   "is_visible" : true,
-                  "text" : "v5CcslCGpZyhbsNimWGMz+At39iYSh9ZOdoXc1xyEGr7B8ixWNOppprnnXs3jkQJlYaPZHyP007Fhyut74Cwh2G929PYBH8OSQhaUAUES3I="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvmwFflCX4VdACSq4Zg6Q2ZX1SShSeH2OehXErmI/JwgJr6QwIIv4SP8bGOqfPYJ+YZ1qirEPmCX1wD5C+6AUs0bgoFx21MK3vNBeLeIEWni57fWdG2iMV4hwS1aSPgRP5mw=="
                 }
               },
               "description_text" : "Refactor the `greet()` function as a single expression function",
@@ -171,14 +173,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 21,
+                      "offset" : 97,
                       "length" : 40,
                       "possible_answer" : "IMNDblsyMM4883zhSeWNwFOG8qlwhuTl297NoE7JUOB3cCvlQ82aC9se6Y0AipdYdcyFfT0ft8AXeeTkkQxTmA==",
                       "placeholder_text" : "TODO(\"Finish implementing the function\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "diS1HUGRrWN/MfA7l014n59l/w0xC7rbQPLVBgdHbSAIhkvaOqAtuO/+xBmCJz4SMHWAoHPMZ8e6QA5r+Rd9QHp9iFI6rjgmykNZRNepZmZp06ynoK8dOA5Vj0tbF3HeOICSuf7+UTbnZHUFsHfU/QLqC4emSJ2NQQ9sas1Xa+53pMh9TCFexwM+PFuqLxjauJ9P0MLpvA0g/2LPbDFr2LJUbIAfd0vXqrLf90lW4PsmsliAXAtMYJW58nhnDJcQnKUxz4jwRpt2uxk8TI1W2ClIOo6NmeEj1hblpR+F/F9/qjUERaczkeymiTTFELqAdfRCEeAk3BJU89wJCP7QBRReOTLf8cGzjtnMrKFwkr0/dGWhtZShaZrUFhopT6f9zqw8DSt32Pbu9vdjXWjKBNu5LmhYzywD7rNw4eMD/kYrGRRtYzJUa61sWtm4oayIzSm+4+09+1mywMjt2nzesLWSX/faxGWFjsaVtTFzXZ0UYsBfe3LluGuF7X0l0V0OSHvj+zykYsMCc+k/9wCMS5WbHIuFsRvel+d1tdlmLtA="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvmwFflCX4VdACSq4Zg6Q2ZX32NzV2MsshMmfHhj4Go4Zu2+Z79JDm+rJBKslf/t0XhMpI8y/nlkkRyjo9JMne+5h2ymSQ8wuH8pm7lvxbdny289F1izoUIxLmci2wqOnGBKQEuQpO595LOEa6V9tC0OJ4GcYOHqgpcM1xd1lS0tV30F8Ix2qEJC2Y4pAw9RxVdR4zeJUHw37lqEEQoacj1ccvTuLEjosvWhPvJ96VEqcS9b1CozWeu8jPfivnLyilnyYEEKuBK2hB8kmA3qa0ap1br9SD0JeQc+GmO8FrOp9i9TieSfBkq8d8ZXkzLtfRKj8gMfJJzQICbQBF/g1TwVVu/I/dImefTEhAVgjp7Nv4IFFKSPZ0YmW/DlkPUcjj40l+5soB+Cuzuk6Xb0TazTHjTopKFcTZrE69pCo4I9pKDdRHDW0Td0kI/ZhmYCqHJa1kGMBsGHoGSt9J16m1I2wuAKTlWjg+ecYlJ3tL6ELuh+Pc+NcUe4J+U+nzKiPKWDq+J2iIgNA0+t4e3d1l0w+XgIha9HYSIBxNib1vJFU1HU48dJ8Qx47R6ksWPxDm9g=="
                 }
               },
               "description_text" : "Complete the function definition so the call-site code is valid and correctly prints the expected output.",
@@ -198,7 +200,7 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [ ],
                   "is_visible" : true,
-                  "text" : "G+XftoZR8opsSYsXba0jkrqUCiQbcaxm37Z6az1Wty8rLbwW0AehTYP8tQ+GLZcqdDektVQedMA+pB64cDK/1johEbCe7VawUHGkk0c9IIs4nkyuJfgAZXkQ5O7dmQN6UEcQjmUqupHUtx+pGZhDnbRlFIexA0iRYlxhtOEIyacJACNvk9tMCt/g7NoHWlem2qKNbShv8ann1ksfh3WIZRuSeA5ZziVcq8ScVKr5hOnw4Y/JvrPFh4jHxtZZ5xrTj7MY8rpTZCq94S+7LGI9dtz4mPg0Va86mVmhgVr7E3ZqbezrcISsc5JS35mZvMJk/1/R0DV1Em08aGHmCGpykkB6QPnejM3HbKWVwZkPfSTkMsTuQ6dIEhOK+eXUc6Y0bqy5eKGmbTk6aPq8ugo5bn6Fh49J0KywNclSZ0Wtw1QantCula7jS+up5AjZud/r"
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm0UQJIFAtQTSqjM3OWJTUovEK7uwxpjQpKv3pW9BccG5161/82X3JDhd2dF870hz5ABaQX73URejMIpsaimaCzSuL7hrfBzBsfSla8f23A7dHMcDcTli4qsQg6T9YAhgdd3VZIs7GYoesxGE5O4NxvBtn07HZKvQXzc5iw/dJBCM+V/9sm7+Eyg6GKXN1XngcSLGXPG0i49zmr76f8/HP4iCYTCb5UTy1KrIK0KfNQRZfKLTO/wBPHfcKrLvHEEpf/pEsBlWrIVTNH7d5MPR0TmFnid7WxcBtu/G+r60RLGJMP55647r25u8ecl01TuEJSVZ5V/O4oXuXU6r1aI1WSjgRVATn+Hd98sPEwNgdYxmtPa5ggjlYxH6Lnq7+vXC4VoNAo6+FYFxRa9WwYA/jIMGG4cJUHmSbI0boKYpkZyPrVI5Ylo/AhvrqeAhSd+sqywkjE13prfkWo4xzV9EaqI="
                 }
               },
               "description_text" : "What is the initialization order for `Declared`, `anon` and `TopLevel`'s companion object",
@@ -212,14 +214,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 78,
+                      "offset" : 154,
                       "length" : 33,
                       "possible_answer" : "vsm5KVbc8eDdNsU/owNZSvlDwNZiV/fGypczknKTs5fQ2XSLk4vOUPhrvZoYsYuFLEMrHeubTU+fIgXawrwwcssHXcbgfMo0z91PqB2aL21MWJWzVY8FUzPLtP5thULNNdwbiuzXq7YNCM1fWzFJgQ==",
                       "placeholder_text" : "TODO(\"Create the Car data class\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "YtRti9Nre+16DtuLhrUu6yDymiX8HnVwdKEE3T37U5pZP43V1W6JruXu5y5ooeANVOS64v8pipr432tR/d476FK3X/TE7BXub3FQ8szyLxm4DxELk9hGK4j/+KONQBeGNtKXoncN9vxXZhZNWzVnlmzvAGi5u48MzrrcDfZuj2IQgO3vZFLxAHzKJU7YqBT+fEzDHRovaJYOfVhO+EwsAa0+AU+WONUkMC2NtPnT6PjZtCmfIliP3mnctWZnqv4p4fhk0DL8GwQxXNeuOQ52/HKgtU0DmexjdBBZkrJDd4hX7tVFD+2CKf4KvS2Q2Ro3WcTrr9WHdoXokchEs7RalF1apFwypPO7+tzhJ4CLgbbKQePGtikRGgvdJJpJaQVV3PqWDoLy7L9X1vegT557vo+rVNgzMQNXyqV0GVQnQO49VfiNI4c/K/qCahyVLYoSRpWUVNHOvmPyiZ0nH8ESE9gSJKMawavuemiFOYNMH7jvDsxnqMe/IgbGqEgkK9KoEfHiKyJQP7JEZSKMSi4YcYnB7IR/mTew9ubWeR0xO9HwD/cd0YMsE4URVe25E/tiDnFsbmJ1Q8biAQxNOOoagVXS2l9i06KWFeWUfoMAIH+TA/TibknoGNsWK0D/jV3t"
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm7UL3GFWrxeygPAAENtjhUr9ozOHi5b/B4j98xCAN3OFGQYghcSE/fDrSABbCYYtAvQfOuNTHcuOHCYfFrjt0nswyv2DqqYi4lAaaTrFX4FFh8NOYpWV9OP2xR/Fep0czmf4lF7Ak7zihYZDgAL1oPyNwquyV00aAcDbecRXaaLCMwPnptnAc67eSEgppHRuKCclkTFeZunKPBZXzeMSV4eQl8lbA1axSgfi660YfPAGV3spjb/DXMCxrCmQGImuCKxRfRz0VzMBDNj7Xbpnp2jByqFicnMhxlBFrkqvcQ2Sb+a9qBceo8h9HFIGNcFbv8u/zUIbuEDwTanxWpCdrJLm2eB38AOurWk6N5/77N0/RRRRGsxFrQiZuW56JMP7PiWoerA4MWNnF9we1aCb0+HXXHOQdmG+lA78p9UFJaa8Xq2JlZ7gAcaTT3pzoEMXDpCBzlVL+W8+sjESyGjRUaoQdZuqCq6/QA1zdWJybdzEYQDeq1JFIV9l9TfHfDIbQCZMvkIlaEbf+Nh5QW2dWHgXU5ATItStxFP54jNQHWxS3rQarMrQEr5lPWld5/gm+gNQEDSWQFva+Dod8mw92T85ooCIJHsiZDbplHOvLNiNftPfdAHvhnXO8VMkWRgXkw=="
                 }
               },
               "description_text" : "Create a data class called Car with the following read only properties:\n- Year (Int)\n- Manufacturer (String)\n- Wheels (Int)\n\nIt should have Color (String) as a read/write property\n\nTwo cars should be equal if the year, manufacturer, and wheels are the same, even if the color is different.",
@@ -251,14 +253,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 1,
+                      "offset" : 76,
                       "length" : 24,
                       "possible_answer" : "BAOUaK68rtEJS7+eTqrNPctz+Qinm5iTEPJUTwo6Nqk=",
                       "placeholder_text" : "TODO(\"Define MIN_DELAY\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "ymkCIjRRHWPywkUejDXGBgh70NzPzPGgt8qE0ZWSns2sJ3kMytdjKc+l1+rtnD3aD0UQECEzu3RCyRYb++C2F5B9+XGJbYwTq0DYhrfPOZw="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm6DuWNmuIlBQrQPfvNJHn4w4rFiIZq/bK//LHDrwXwy5n198J1hP7FTJo/ie5BGqiZJQ/QBLQ20BYAs699jyyCCRPkiGdoFh5gEl4jxRJcFB"
                 }
               },
               "description_text" : "Define a top-level property named `MIN_DELAY` that is initialized to the value 5000.\n\nThis property should only be accessible within `Main.kt`",
@@ -278,14 +280,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 76,
+                      "offset" : 151,
                       "length" : 49,
                       "possible_answer" : "jYOW+vLxEGf6UdjUSgxfbqOmkrl4v+ZxV1XIhecbmep5aKdE1jAzwrJl24hCGQ1RAqtiXl7yvAv3aAqMVevyuhvmukrge69bKfWHLcMZWMk=",
                       "placeholder_text" : "TODO(\"Define the displayName extension property\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "kSTbnnRQRWUPrS8S+t78h8M+ewGZNGBh/UhXax2A01wbaIKjN3lPZuAv3vPsTwX4weH0WOZaGaUiQZMj/OzpP5KuupwAKtFueF4thmWCnpUWoEhPVotaBq1157eQkl39K482Fn3X3T0az/IV3chqn6e8J5nZ5S+IzhIk0tCLO333gnVGRcJ/yVAur/4svK0VsKsiPWfqgyIlqwmrO7Z3vaul6ivAzstlsmqJmwmHPFRZ4og6ZfJ0j2V6P6EFcbyro2lSox7fRyt9wzqcMRRBAGpuodtir1UuMfDq7U/IzWQ="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm7UL3GFWrxeygPAAENtjhUoW1TWlA6aUcRhLsss/yhl4EGU2j0X5uXx38z0mOPxUGYk4qW6iylCG7AyFoSfFpDFGlweWA3mCg7rt/k+xLsK84KNJsTELEnxSnnL9F20wW/UtCTYioGmF1Y6vOMyIem5bkDcLBzgVDXZ9N1/SiU/rlTrEkYUoldx1G6QjDrkfFRHza8mTG4Nc7W6mVMJNWLhPf2VPbH37t4MAgEuNeSISfVX67JRGd4tJJqj156biSGDNHlrEMKlWVAzn/JaW2z25krwvPUsl/MdqKL+IauinQogp0KqRb5Mzj/wQaqRp2A=="
                 }
               },
               "description_text" : "Define an extension property on the `Student` class.\n\nThe property \n- should be named `displayName`\n- should be of type `String`\n- should return a lowercase string with first name, space, last name\n\nex:\n- firstName = Peter\n- lastName = Parker\n- displayName = peter parker",
@@ -305,14 +307,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 132,
+                      "offset" : 207,
                       "length" : 45,
                       "possible_answer" : "4222M9FyA8b5ao+v94AaDAEYEMIJvML0RuPKWsNMtmUzWA54A+8npKQyA84Qu7uF7yA1KPDZlC717WdVJFQs3g==",
                       "placeholder_text" : "TODO(\"Write the toTask() extension function\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "uZTsC+Tmpvy1/rGRpeAwDIGss6uGhlJlvNWO+evTnbXCNH6b2+nKXYBcAD/Anzrf/LWo+e0naGaRA/VvBx9YyeuchcKZcUbFt8b+az6TfrRcWLf+bvPnHz8txMRigUbYONIjtgNwDbl10qGo6JwgubF2amTl633Ji1dKJyeTJoFEc2pep+ucS0wIxaEoG0DQymh+yy16RYKPQwNmJIfOCdAO1xFUstWkd6snTIUCudr3yeTBFPT/K2IvC2+74+0D37roopSgHs0idEoEswlhO/G/MpzeIYabtGOtmR8CWts1qJf1AwMdj40StaHcpJOLnoCjZJnfYnRZ6mcqgmWhEtK1dOY0JZseOEiu4VAlDfB3HjypnJd5LLWp+sPz2YL7cRi/b1KolKZU/Rr+ySakNA=="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm7UL3GFWrxeygPAAENtjhUrEgfplUlVS0Set/GQq9ZaV201dDWtZNIv8SWx5IQJc7jPtorkyAIs21okvKLXRwr9/ktcuJ+GEQc5VQZkCANv5AcepiWO5w0btQrIwqUAUdN+bOUNhjATJFeSvHdXfN/VVuDm1y8vQ/I0lm82mMTL9Xmntz1BrKFP6S4l87bZ96Rru9/M1YGa/zxtRMtAbezMgIL9j/tlWZxEzI84Cn2OuvQXvJoDScdEOF/zZIOiafl7v4tlLwmUPb5g9blimrxebgy1uA6dgQS91gHyx3+TPnicd/rVxvPbT+d/XX5X2ov1wvssrLbIHKtLOL7MkFr56BO6EwPTVwg/9z3LDVIyWLvvfJ/I0ikJr/ycRo4B/5H/yYZlSTNahIkS1fEn0OLYW+AHl3Kb0hVdAaxOvGOc5"
                 }
               },
               "description_text" : "Write an extension function on the `TaskEntity` type to convert `TaskEntity` to a `Task`.\n\nThis function should only be accessible within `Main.kt`",
@@ -344,14 +346,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 21,
+                      "offset" : 96,
                       "length" : 25,
                       "possible_answer" : "L59rFh+RinU51Kn0Eg/wkmS5ed9tZJYlAw/yORErbXw=",
                       "placeholder_text" : "TODO(\"Define the lambda\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "olBuYGdPL2m9Vi+6S1eEL7rWiELMBIJwBCcZA4inj9A7UKmVf1E7reqPEFTsBp5HYUx+8auq+VizbzEXwdL5OsCnVSZx8F/wdAMtjZEYfw1wFmZlIEW2zNqghRrCvm1F"
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm5yZ8Upy+OHTWpPo4d9b3Tr+k3v1fhvuRcDNSx4OEoPk4l1P5Ds8KFQVXiJ4J7ZwCfx1XLV0+079iUO5qAwsr5CGKpkBEPjPXDULazLkPCGvZ87rVONE4CUSA57oe4+I5Q8wOM6sTWdZkjpvvuxL5Eg="
                 }
               },
               "description_text" : "Finish implementing the `adder` function variable.\n\nDefine the lambda the takes 2 `Int` parameters, and adds those values.",
@@ -371,14 +373,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 282,
+                      "offset" : 357,
                       "length" : 53,
                       "possible_answer" : "IbbAfTXU6VDOwZspbteztNVm1z6B2o/bfZfATq3u9x+uC9/NpDtQvsmMd9ViZaxA",
                       "placeholder_text" : "TODO(\"Use an anonymous function to filter languages\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "EHjrQ+fqG+cHZAjuIISQk6r1zKZYicFtnAtuilO9p5w22QFBJ7PGw0s/AybUMUbxUHQFOKnkOgiQ+Mut+Qkl1qOYVfDBJsz6KFZwS8JwYiRjql2AFzsp0pwvTtvWnMQTxuPi9NkNfs8cUe4E7knxtB0I08bYDispxCgE+zaR6ZbFuEdc7beH04lYOey9gfoEYAALhpLg71pktvSqz2ekExhRxvsMtCaLxzLVWdI0vxs+7LUDjIx/a+BTf9tyW1ElaWGspqRSCtOI+He3MlopxyYnVdENZNBXSzSP5R1XTTGCwISlljvLaQMPcD0SdPtApJJS+S6jwjqyhagk9NHi40ExXmdseYnfj0cS6H3ffb3r4RF9PXCaMJVce+PBl45RO2+AhSFd52eX4qBXTcNe4B7pstfdH+WKlD9MpoC1SMiZMbM3VZlKzjMJRZU9V81Vq+nayjON+7irRCseCE0NPdhOJzx91UZlThv2En1j70SDR3BxtQk8G0soX8WN/4LwOp7F8J+UTIAJ1bDohI+ZfQ=="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm5yZ8Upy+OHTWpPo4d9b3ToeB6hE2WQ0u1dBTATzG7r1DqYwJdKSH4/p4ixiyCmP1hwX3gg7GiSQiHpd/nIJJua86jVuc5z6wEdhcGxTZGXv25ZB/I01lcvdPyGB9ypWlJXgMb7Q1huMOH9Pv4hprOGr/sjq5wvfIrGCQUo+U3jhJjp8nMahja+wVf+CV6gHDM40qeZ3Vk9fbErVdqd6Syh62DBO+HSOFGngUAdqf+2kk4PAE0JzCAT3Ar99mlUP/cINPAVqsX3CzWciELmMBFT81TnAhNTqZHj5/Czq2bqMG+BiCc8oBgi+xji3+O8ux2hIHc7QVD9+FoLre2RJPj+OEeM5d9vyuE1iede0w2r9LsUQl3aJkWFUCL7FZFh+bcEzY5edRZdrQCSPaHNKdqWbI8Cltc1gOGXICejxfD8uvuDKq2QKdblw89+JdSsnBCWUHrJkDsrUtMCckvsrIAnfXZm5YuPPCiPhNH6regAgw5NR3vw0aBb9paPtjWA6eoT7Zn4+ctTu1RgWxj3/W1A="
                 }
               },
               "description_text" : "Filter the list so only languages whose name is less than 6 characters long are printed.\n\nFinish the implementation by passing an anonymous function as the predicate for the call to `filter()`",
@@ -398,14 +400,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 170,
+                      "offset" : 246,
                       "length" : 65,
                       "possible_answer" : "fPS4fGbhHi1W5hp2HJxypA==",
                       "placeholder_text" : "TODO(\"Define a function parameter named action that returns a T\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "l3CFdVwWRLu5ndD/cNHUX+ERgwNxLS5urER2mAuBX0D6f4kVPUlyuuUW+BPxd/DI0NnOpTAmL/LXPTMiU5/t58RMTM0P3s7BLeBoS7MQBtKbsUD/gySpriVDR3qpDV9O3f6M/+sSjCyEXoMDpGroAf5XD2JquE0frUxxmdGO12UOBVFXE9A9psLv/LAHg+V3hisdVScaxA+ZneuOOiCWWQfFQigqDsbTMAd4AP+aQMjVBBcwwTo2c0gn/VtENlPOTIBpP8UkXd5Z/vJvxIp3AhtEzejDSQ3duHRrLKk3DMbs4QA6kf9Mss6a2IQ52Ecn+i5XIJYaC4AH678mGNiaMIv9Coymo3h5Kn73AQndSzLgdfra7hsnL3B0Cw9tq57KIHi8SgI9On+wqnx8VCK2DsW2sEgQ3vh9wukQmiJ/NaXV3N+UYIw/u5CQzj0yxaq3xLPNeuPNRn8eDQC8nuW/yoO+gZJ0YH5wDugT2RdhX85M12gLXvR3Wnx6I+9c94mVVfSQJ72Q+gJ3pXXZpAGUd2JYGMRMH/sEw1uPIUz4i9RW+UQszR2faTtlROAHpSHS"
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm3kg3BMJ7OSk8Fk/YhSBn49OiC0gvM8EHv1sesF32+iUDSFQCZZaLvidIzr/tEGrZV3mI0tuVMB7OCcT+tZb/SOkDNt3U8B/eH8V2n1DDxgWyzWwL4cmrKHagHnbc3GS521rnmhPd57yYgw/fmcgoF1d0DeKhIY+L5rGSJVMdhCg+HHjfXbG+oX4RGtLpnaTNS7rIlP+JlfT8U3pr3E4RbGpGFOYnaETUwYCDgde7rtf1FsWG4pzk6oKkZ+Kxb5kGBHiX2Ci/LdEagklWRHeEW/J1WsqzaCf7Yb1e8rUq0wJmSjBIguBvvgZUoXCZQ284tgDnuXxC3KA4lzc1Oqxg2hPnHOWY/lQlBv99QFAxy82h5LwDosFqg8Mj3l+JEwRNoowptXnvKeOi5jL1aBw8TqR8iHKKrr5lRVOLpeC3UAeZ6IZOmQRDVTfRJg8HlLHLNQUYm5gc++9/FqpmektPvTIPxxdoO+NlAnQ1WS+1r0zx2BmnHxHvJ7OR5nTb6ZyKG+Jtq6mzwIrNjyHcNnD1ndWHDddRnLcVPaw3vR/vFb7j5f+o9zmcG4e6E7AcMvucw=="
                 },
                 "src/helpers.kt" : {
                   "name" : "src/helpers.kt",
@@ -425,14 +427,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 336,
+                      "offset" : 412,
                       "length" : 28,
                       "possible_answer" : "R+l74dh+I2CD/4P4Cg+4NcURYxeWdCPUDMKhgGrXUoIvReryyx/oyi7cHNIErpaf0CjiYHmt+Dc8jMPcJas8/P7JNkq0z7JVFvR09S9Su3U=",
                       "placeholder_text" : "TODO(\"Write a track method\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "gujv4CesPan1FVGgKiupSZNv4naq3NuuTp2A+MdyQTFrJA900c5jDq+tdDe2sJPH9GU5RMNrsjYChvCUPKKehG3ExKsGSnvAQHRxmXC7xfm28AHPb5Yv+IJbhbUErqQhtXYvrPKE+7ttgLOXN0HRqleNn5beKx9vErAETP0mU2nIz3vlj9/SPWFYZIxXdIPbblQj28jE+60t3psP9FJoyucbWDYuOiGCiaBf3CvpMffEyrw9kqmShQXmigV2OBEudDW46w9S+4Mnoln0lWLLfxGPglnL5+nQRSPhQCjV/JWaubCa+IrHHXsDmiAWnHgpfQQq8sv1/fihdJU1yTofBmfBBppsvfmZ/rva72O2s2DfqFeLpekrlnGsRq9dEzAMFRwMqfE4V2RM8VOv5TJo+nd/V5q6eje+Ok4rrnJKdOqpn1L2VX7kTU0LQM7RdP/ygnJ0mthh0k6HT/wPS19wQs5BRf7R8UwJ5i74f0RznIILo2o+VQYKyrQfU/S/PvVFeIonSs16MYuY+JCTSqAemSG1HiB+2UVJCoEaqTZks6TXFMju5PPYFQruCw1GE3V5zYjkr7AAb3U4Il0UE9FKlvBjYzPMe0AuAYeE1nKlXS778g6WKfvWIEvYL9U7U9GKvSZcRRbAtDUDK8Rb1c96aRsoH8zxpLx2KXIz2oiDiDX7u2vJikwGL7ix4Jh9CE7FHakmXia/JJJqmpzfpSdCjhFrjLo/NAb+F7xw6L+7q9I="
+                  "text" : "2M95dDvF8eEMoGlzhCVWS2VmpG5U1+BPwVR8uiqPRzP9m3MqpaDFUqvn980AH/aSlElPVb1DjzRjGuuzCdNvm7UL3GFWrxeygPAAENtjhUp42CpNRLRQkSFnPyHsGnBruALnponQmg/EeTxFy+PoVBRG3YA1LwKYhPvHpi9sfjhJwZAdtLWbQXQU1K6aPgMqgjCKmUTY01PEQXIfNczY6aCldUBtupkwylU1ve1CVzjXqzTTNFxEET7ZClP8CYLFL1y6/0nvQVSDze4qxm0+sOp9uEw3AdPMosX9CD2ET9OBCErFAcGkINEWcQWXHMwyD/T7p6XJHq2moCDosscu1CBrbEIYssN0gk32wni4VdaFMy5GOKyCfI7F/5oUVygwdUuReJto9SE7uX2izyoNaiHGLT73yMv6TMSmPE6vJa0xPtTdSZiNL6OsvW7YJzoq2tHCewL89PhaBC6/Wkh86Y7yoEdWi3m372mC5QW/BFeBpxTZ49B1LFUZV3YaZIKusnLi6eAogpIyjur2ZD09DQ7+LKK+tR2NcRebY9d4LOzFrw8iCeUzWpxnbONYAerNzTR6UJQ1z8mJADqWxAjS+7gnLuTDzH8wVQgHStirq6tShV9F1BbdHyqKhrgvK+BwfJvTEPDteLjxnLdU4ooPFRZ88aVPJvagXh7QUGQ0Z7a9KG3P0jsW0H8cIvg+NHOgBRsk3Xkhm2FmYeSGV/Dp2YE98V3A2bfk8q55IzfLaSkfidyIO1zNgjADw8Nxno+QVNoo3g82fnZmQH9S/qDszm77DKeUUzAWSMT5TKysweXTs0vGtMmEJU4CeKGHRvne"
                 }
               },
               "description_text" : "Create an extension function on the AnalyticsEvent class.\n\n- The function should be named track\n- The function should take a single function parameter named `init` that has `AnalyticsEvent` as a receiver and returns `Unit`",
@@ -458,14 +460,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 53,
+                      "offset" : 129,
                       "length" : 31,
                       "possible_answer" : "vuw9r4L+g8mAMTJgOUm0Uq1qx7zg+06lCxpTrE99W1Xw0Keohbd5U71BwkOXmsBVTfJCpO5SrGVtEwNq9iDUJmnFOJVWVtmKg0VVcl90Fjg=",
                       "placeholder_text" : "TODO(\"Implement lazy delegate\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "XLfQHDrZk3yumfHI/vGO6qBg923yPv/EyMzRdV+ohUEgxuWSKY8XnEOPlWjSrbZLde+TA5fZ/+HXR4L/TNST6obppbtvnIiDVZQE7rlk5j4447Fy8FETdKAYr/FGgtEei0Bfv8wNQ8GuZGdwAZMhMkmkiDYXgETnu1qNfm/R14MLCuaDRJcmrOwO/m3BQwYQZHO7+v2MPY0l5yzXQsn+Li3RQ2VeJ1ECP3zv/nD3bNE="
+                  "text" : "XLfQHDrZk3yumfHI/vGO6s0s6dnHgl/Cyx7eIoOG/Vmq4p0exEVtiuHNSaLL4i2fbxH6fKWz05+zF2EXOTW9ak3I74CSWUkb9o5PP0XQteSu5EIEWmKBB9O/nq5FGpbns5lijTUrN40CqKz7yyU7fiaXqu8rgVZC3FSPEIMpNIWCYMa6QvI4AjIiY/VVuG2/SUXbvN0WuG6rkvOl5rXl+T/W2PQAWKhsqcX6Rp2Nli4cO7QX7i64cqGu6pN2C4BQIIiLi1KqkO3KOxr5LbR49jKOTYNBNhSR7Y/wOgE/M1m4Z45PicYwGLhQ9dE+duafJNKwnWOk468f1nNfNN57rw=="
                 }
               },
               "description_text" : "Finish the declaration of `random` by using a lazy delegate.\n\nThe lazy delegate should print `\"Generating value\"` when it's evaluated.\n\nThe output of the code should look like:\n`\"Generating value\"`\n<random value>\n<random value>\n\nwhere <random value> is the result of calling `Random.nextInt(100)`",
@@ -485,14 +487,14 @@
                   "name" : "src/Main.kt",
                   "placeholders" : [
                     {
-                      "offset" : 52,
+                      "offset" : 128,
                       "length" : 41,
                       "possible_answer" : "KAaKD/Q3TtIpdibcQzlJ0PeCNvsr1fryBFdosys53TDH4/CUpnIch8ikIyBcKWp0gV6R0Iv5St6KmOyvUW02Dmd2XOnTxa3ugZ9HRtpEAVICb1jgysgsvGjKqZ7JQmunthgcNfn727oDNZhXMoQU4WI5RnLK4EJ+vnQoiHzO73ziFhF+ZLtRscbC3/bcxCWWx1kObkBRaVCgfxJ5Qs9A+lCsflxDZH0Xv0glI1eyBLc6UcAGMhvyAg7osBxu64QORyRtZwZOyVG8tp+KS1n8EhbvIr8ASm3GvEQ6l/na2kmaw0v0fsAtHrPsAIrZZO6hHMF20GQjleroZwDQTfRAO4fGzIpyMD8QbEIWNwf1fk2akK6w5z5Z2bYbVXhvPdrICVvL5/FP1MZsl+dxAMZ+XQ==",
                       "placeholder_text" : "TODO(\"Finish implementing the Dog class\")"
                     }
                   ],
                   "is_visible" : true,
-                  "text" : "D41W2AdILrRbHTaXRHehBUXyAH58prH4utMD4g2qyGradzy5X1zAwE7s51HWyyOAbM36TxAFVYY9C0jgTUJbp+64P7eKly+yGsdDCCMrBhVom80nWHe+h1+S9vNsJ93C8mNLRz3L21omu8pJik9MldOeziAOvhrw4rGQl8R8PL2z3DdoxBRVoBbEjsb7uBpUc7LCa+Zipnsvcl35BOZPeoYbLzmHQA7zhJ8wtgPqmvyPsyiW5SPYBi2g6z7CT32EGFffWTsRPbZTJF+w+X1epNIBWI3CI3rLgMezj92ogaspB9jM8c/yOGdowSN+4ZldekoozmSi7C9qKcRL/ehBeagNIolWzIdP1BO8nMRhXDVgPuv6lu0Q8dI+e1KVmHobhHVc2iGvU1ZkqDGyNpNkH4XUjFtcd8g2uLLcXxl+52FE7CvNiTUajGJeuNRzPBkQ3XFgXO6giZdIn3NiezuGDeR6G8EOBR5Rprq5EicViIFDJ5oVqpN09aLi7WKXhNdNia8lkLTbu+t6JBDyZda4lX5Fnbk8JSNa65jiNg1g90k4+wb0VcHxzBJpHxQHMP0qwGPYNKstlUi9B7w3x2Ha9pYuZP3U9Dm9niSwytLrEPCb6Ps0AJoW8JOWGhMuNq2RYpR59XWSxgQx6UZH2h7fIN15u30iyjcQ0l9y/j5DJJ3+aaj4wVSd+es5Dg1SR/yw1eSDLDSWuA+L0w3it58UKjm1RuKBuufbmR2ep27aiduNmJtBN7aSWfLMaZ64QWEfqm390qBDZaVIt99+FmLXgVt22OGgaOaoxIaioN58DlYIiP2UFoj/8SFGWxI77rjsWdXHhEGkrSc5WpAhAD+sSGcyZSXQPlhAU2LbGace4CvLcGEOKm+YY1AUX5qiWbU47rERCOvkbzXWyb+DxRd0E0E6PpmtLiM+bV5dpqoiJ9LAAUxzS0ZAQtg+OyjqZMoX1jctQZw14VZDtX6WGLZzWDd4HVJu72wVhezcDgdCjpHcvmraZQMw/W3ScidWagoW3qGQXJuUbrtdlk8aXr4d+1uxaAGbFpQ6qSchTC5UcLYwlVzzB+TQ/HpQpPXCjWO5Tjmhr/rj31vcvu+AJCx+uacZtJrGefqFZzPrE5vpDvFK/SttMq9uLR4WYiSE88BWnu/2vA9yzUlVWRg6edo00872Mr/pz9DI2hMHcKkgor/9ZWIEs2okJfRtSBIPQAh7EX0eW4ndjw6QYyabaUPF+ANTxdA4e0I8DS/UmYxxVrZnWKatth5SIM2ZiICPoN1XOinPlmsNX1Mvv4otL7WFcur/KS5d9u/IR31j5yWuq5wcfgOTnEyc2UwOcd5w4pZOCeo/ICThp0ZUWdSHBjWwHsfd8FkLlrtAcQYBMF8HbULz9evTbqpaCr6bdsJJvY6sqT4YNE7xyhjM9VWIZHGqEvcrFUtNYKTq0f2OV8HZl2WJkL+PWiEOGjRSEc59OeIXMCmrL5MuBqUWKIBPzyaBFkUdaPdqCobgGF6COY1M6yM0VGS/eAT5KTFYi+x2jKkNI41xA+fQYWGcNBxDFm2SHddPPekaXfFcWLbsMxvzJaxvlofx+APpUMcnpF9EWMoo"
+                  "text" : "D41W2AdILrRbHTaXRHehBUXyAH58prH4utMD4g2qyGrQaaks6T4RNlUX88pz7PpMv68z37r6FX9oFMrXhknZWcJqWxgMONkS99Mrw3uptbQOH/oLoOpyyIJhQdB7UeELI6M13SbRDyjglYyMIRkfQUxs2+Npkmif4eTh1NqtvdobMtN71pa75toXg8HnsbQoxzrYheCWnSQzzjCzN7IRCIDd+OhgBW4N2925Lpvan9BImailGNOJKd/JIZkIOu4FB5MZN556cSf+C0MAttjqzldp/CDfzVPrWTGvcl9yxCr0s4brqRp+r7dxxj01YRmYhZUC4NOk7pIDpgQtsJnRhgxGzYTize2dEdRBX5K9Uerf1XvQ3+vqrSgm7zlPd3ZVAevSO3q+ZgvnIvywETBI/0ojOd4BCOGE3awZBPFFj9z6s4pR+jSiPQVzHZfkzYGcA4WtkxwXenqNGM/KL39FlvA/EiulQFYNT9Ek5SgiREwoJMi0H8Z1nuax/YABaXKVV4uV5pIcDDAHZ4LUmw3FfNcCI2rtiyp0NrSek9sE9zRdUzimGzODB5J+cQ0xkcEHVHudzjNrkjJotELVtSAMLw8uj4KJyw1Q8VSmrX+ZJIHDtNA9wCLxCgayobSO4UrLtjdT5MyyP+svg8hwanefxuaeozXjwA7M4m+ddkknVbQ0czr/mfFybhdzUctNpIdw/ZWOI93eUBaCre4SIriByeNMQGlrR9p658nN+g5xDIM5TaHQ7W2jfn9htbJJimKBjDQnUgDy3n/EwQ9c5cps23/vZ1kyjqH5x9s9Dxm9QbVKAVYN81LzlU+6vYa0y+/Hh5s4XAp3o5ABKqsZMxv1778o6yUlfs30eieMOXmfj9kq6YKS0JggUxxHYxj/ZysnLU/dBzauP49Eb7YRU4NexmYNMjNbaEGMFPTk8UM8ICXQB3auD0KphMwYPE4ueO85vnk+ja1uoKeWCWlRjX+v4N/dLeXtuIQoVhQAiGcQ/rVCXFCcLIjtllmvWacyv2pwPvAIVSE1jDZJZDKAHZAdX4Dnr2PxH+PSCJ8tAvcamxJZUL3WLJRQ/fWQ40unkaS6t6VYlyzEjGPyJPFuZarSnZd3FS39jSA1YGmMnGh5L8pPAotPNXt5J1vfD4/yFlbu96c5wbBzIAxHOYeK3+PGcafaj4kKnqy08m6ibzeQl+0m2lCZdrV3PqD/dehrEK6Sd0YdYQR3/QD2cCGB3DMtHUWlJfel75+Fcr2h6KH8W64pb4/D7Q4ahZ6PprZvwN8KBMxH5+YmFkf9gHmZLRt4Yi7iuEHJ/r6XkQhIUptlLIA1YIiFKpKMFeSfD68TH0/FsRUv7IWMRJTvekAEKM5fdtdy+LkaH4A2Oq352USlp1BWk01YSEttR1klYN+ViIwqt7R6yyc14v6L3WIz06f+qcbXTj+UjQfRIRilII69bXzXLJjyduVvD5d6djTFgOUYaPDAlXOXnk4dGNYKWIt2I29lNJI/BmJ9q3KMwLc3P7Htw3E2eHxDFZ0hGWX9PWhurMBLt2yovx5I5bLI2Loqr2PxhIXgEigyy+ycr2Wgz57LL0as8ogG93OAYKPr9DbXgOBU2T/riu50io+fqxxu52dWmuBkAErNwI6ZIVLMyz/vTdV9DcRElOFm2d/KNtMfgczACOxJxl93zVsuwJzmGt5S/5QtGC9Xc5CETxbiFjs="
                 }
               },
               "description_text" : "Create a class `Dog`\n\n- Give `Dog` a read/write property `name`\n- Give `Dog` a property `nameChangedCount` that counts how many times `name` has been changed\n- Give `Dog` a property `isConfused` that's `true` once it's name changes 3+ times\n\n* A `Dog`'s name is NOT allowed to be \"Cat\"",
@@ -509,11 +511,10 @@
   "additional_files" : [
     {
       "name" : "build.gradle",
-      "placeholders" : [ ],
       "is_visible" : true,
-      "text" : "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"
+      "text" : "QPBhzFWPTdFGVSD7ERp/L7+ueyAJcs8hV9EVLlljzMAMmuJqvInxbSol+MNN/HY8SSiNC3CGkv6cfMTpuPqLJtywcPiOXn1JYuu4f+bwLr6pxQtEj5qGuK+IP5DFGw/eDjqyzOhZAYNaNqHu9CaYodOB1y6fNgxSk66WgKJHvnRjxhDpv+A6n2x7TO1Vh5lK7c383+4YYvxklLUSGHtcmdu1vbwdDoZMBqe7Kan1qv1pFnxZHSwDVakMA2qf7Cqo/toN3bfjXMZxpJRa+n8Z11OjMADZsgEN4ie/bsKMKmWt2L1jKNGYrSLLXfNtZb41HOQLFb7X9GU+6RXJAuC7/2rz6SK2JAucnkGN61wWLfmodBhMtMq3OZlSLeAKLT69vD1MSBquSMs7FMit1rcPUrtr4bW5v5ePg7vaVTIe5r2nzKy5eHdcJE0/ifQm/E6coGFq54goUJX9yqYPHz8A60c/Psp43c4xPpyJRi6pytF7uokopnIipSOtYEl6iLxy7GteCOLQX8Y2u0O8c++prbu2UjYDLtcXtmsOPM0Bk/cbt7EkqKnF9FgO0YVCqoVTJ58GYEfDVI750um9/zfuXXwjAPN6/uNPRcJN6RWXgQlLKUuC2Iwh+NkeWFEOD64a9gnWvWaUvVqGPrze3qRK1spxW7yTxnunG40u88ApZuZUPt/Jf+pv4dZ4ZWDEelXBl9IQx7zm3bC2r2Z/FFArkXR66f45xusaq3Wh4Pvm69M83+jmRTNRaZ7CZXeqyll1oMwoeiBnAYGIQTUXO2evivl+68vm/WfdA83n+9OeF+6cBjV/Eal+MzTgDTCu6zzLQLaZp3LZ0dDsAtEqhhK/P5GTZY7GdXQXBXtqunGNpVkizPrc0jbMxQkwLmqL5RkhjsXmIZvP7lOK5Fk6snrOMOrARgNsofvyS+eVsT5DG6fvoYpcBz2ATex+mgtXF8wULSTwbLJ6oR5Pce3iP8Lm8OtZLMqmcAdHlPWZBrGxePzhJw0ID3xabiPFf7Zg0sYnLYPlrkLhty8+JMOmWiisZ65a9aJVG6wfq3mXUmS7CIqOs9cuXgplEZ8Z/MuXNV3VKYHwSgiko//VookL0/xYhlGzriuvTA1cf5bqnlToknU0RVUSEEtG9BnrNRVhd6EtX5lyknObtlxoz/VYgwDPVOy4jIen1BRQ6CFMaBP0ydSVUTEhc+5dIFruCdDQPCRt2KQCy0dHdv82Lnd6fWDO4IPXV92M5i8BMGHh4wldwqBc3p+HJ1Z1EE3sMLUE2YWCnfSIPpxqZzV+578VMKX9p21wn4S4G8bR2uIMbgdo6wcIo1IhwLKMhK1YS+pCx3zgrdq26gVg4WPrn3ZBij3lgVlVQjrco3uIbMn6vnnrb/+YwK/yWWRnDaZx1sg/uXoKTRK15KcTlG5KPhn4JJBErwqTNlr2ZCVDX+ks6QMwL4hcNWUgqG9gqiF1ijj5OaAMi50RbUWTBF32xXeE2cEcfrl8zPsTpJ8TIBq+Qsz2iZ2R+vPu+ocrDnpFQltxGbH6pctzbe7fwrJ8JVeXr2zC1HOSxBRkJOyy++3OlMjAIKpQbasiscS/6gs3TM2sT4qk0iTJiJdcbGMjuxcZB0BgKn8SigpL5DDb4G3aQAKMrOTXGx8abDaLohzArn/pCrhue3BOR4vUvaDbcZGRgHvd2NjmDgw/El8Dwi3cUk88gdi4qLEtJErMzTeRfvbJfYcipzwt7re+ZnibMXFyRc0mJSWPiYYgzHRElUoD7x7UWE+OWRvy3y/B++vBtI9Y9c500YMeCuuAAzzWzdras5pNG9Wnz32aFa9tcHfjxaO4PkKbraKJ5XTnvqbP4xIBCFtZdx5YyQvV/AIqHInVPacY9XOhL1fnf/nBq9RT1jXfKCeXKaTnS3WycH7ZTVcb+n5owd4IuHoQSRI4i/C0JBsnmz8/LD0jTVC8K8HHJp5xXgJYyeTXfdXMra3gruVBTeSmeXacHVSFj5WWf3NAao5qaFG6OQKG0eaYheLMFl09xcuPEj1HCXYGg8PA4Olne0Q1F9aLRd/1yQphzEXJgI3TZ5EQk2bkHgXzlrCjc7/Mx4HGZ7JjdiNkb4TCXXb+wbadL2qUWz/Qa62PURakzgVUe+sMT0tfuDLeaGJ1482eP+HQXd+iOlUCbVaNfkGYJoyiU03QqM5mS7hCVf7EnopGY+twdGoA8msGEUBLadVzaD5jsckgfza8n/2xt4Df1U36vrsAcq7DaWwqJUnIebIqp33XI3nKYUiBvY/iMjgjokh6gAgKa6pWgs42eK5u7mRI9T2lzkH2HV5/HspVs2fTfbN7D8Xm3+LcFpNDkIPYaOMUXdnE7DhxqtTC8pSXfwiadPUyCX7+R8Qrhc8S6Mlv/Gm8uguYlPeiSAsCXkinlzu/ge00+GNlI5NPab5hunUpjAapis1bWPo1b4Vd5+BypvLRVrcHww5vsmrCTWKZOvoKu9U61fcSk6WM3AtRaqqThyRl5P6LSRDk/TLjKcstxc3l98ziNQ8bRCdraFtiNIr5A+2kZOVZ4CLJxNJKqu27w/1xTDVDR+VHJ1SOUL8AV/fQ9//fpESD9955KYFYAx6Y7Ep6EaOL3+6qgrZiBIq6OLtrzB3GIsKYx/XJLcXCOjO+WR9f2b8T3BOxAmoXqlX9h/ofdTxR8LkM2Ry1LGZ1YGecIkfXG4xgdOcGlPgqrc80HJGOpso0zFgQCWRee7IRMz1S8pK3yIds99v9id5JYTihDRje6Te+e97i2ztHfrW2jrWIwTYw6iiksBi1zFfMfGUhG8OeblR1xdTEjBkPUgTM01mwCqLvjRC7WzpxjQ4LxRz0cRpm7SAKc9H4jWxIpT2t82TEX8clAsGjH84J7Fp36U0/VoKMhMU2BgZataQ5jXYbolzChAUwDGQ4Pv2O43E91uRnL5DCu/lwKJj6yeNHYBxSV3Wl2MNDzXwyfaWzB04hmMC1o9+BZoOdR1GmqyQN/T5HXTLal8AG5VBefjK5a0wFPJnNaR3EiUOG5JA1WxDKQ0GVVvnkyUW2rIxUT8tvSypsZ+yasxqPdusVbS9a2/44GmL+A5MfSa/+FtfbrtfjH1b/3kJ2Hd9GbFBgJn29K8wHPBUh3JU2mHw5PgzSY83vFxWMww4lRApCZQk74Q8hCxrHVZPcrv1soi8nAOk4C0oJr3F2faqwf9W/C/1EWm4n/C+JnDmjppKwbBCWq4qx0BsJ8a2O8wDyT0T0bE2GA+HIrjtX+3Ku8BPgX1P5kyLvIPMvqcrOBziR7RMR9mZNHQCzd/NsNWBp4Xs6rhXx5iYzVBR17ELwNsXjXFBstmmDzAN0Uxd7XEcEHDqd7S4/tsEqEiZA7LGF4i5LSEaOHKh44NmwmERz3ic5ka8bGNImnM+DpikK0vGnchS0UHgHrUxfyCLTIA+73Tj7L36ApFiADKdKZUuCcggKyCQ28CjEU7Ts7vwdG0d65w=="
     }
   ],
-  "version" : 12,
-  "edu_plugin_version" : "2021.11-2021.3-271"
+  "version" : 14,
+  "edu_plugin_version" : "2023.1-2022.3-301"
 }

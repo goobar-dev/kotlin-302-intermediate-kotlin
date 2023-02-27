@@ -1,3 +1,8 @@
+/**
+ * Review the Description Tool Window for more
+ * exercise details
+ */
+
 data class Person(val firstName: String, val lastName: String, val age: Int)
 
 data class Car(val year: Int, val manufacturer: String, val wheels: Int) {

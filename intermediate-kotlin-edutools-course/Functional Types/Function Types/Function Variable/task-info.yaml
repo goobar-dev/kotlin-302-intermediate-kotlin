@@ -5,6 +5,6 @@ files:
 - name: src/Main.kt
   visible: true
   placeholders:
-  - offset: 21
+  - offset: 96
     length: 27
     placeholder_text: TODO("Define the lambda")

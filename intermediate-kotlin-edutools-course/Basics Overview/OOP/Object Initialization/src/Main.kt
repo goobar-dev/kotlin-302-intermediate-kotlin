@@ -1,3 +1,8 @@
+/**
+ * Review the Description Tool Window for more
+ * exercise details
+ */
+
 object Declared {
     val id = 0
 }

@@ -1,3 +1,8 @@
+/**
+ * Review the Description Tool Window for more
+ * exercise details
+ */
+
 fun greetThings(
     greeting: String = "Hello",
     vararg thingsToGreet: String
